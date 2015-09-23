@@ -1,0 +1,927 @@
+// Dota Abilities Override File
+"DOTAAbilities"
+{      
+  "item_blink" "REMOVE"
+  "item_recipe_lotus_orb" 
+  {
+   "ItemCost" "90"
+  }
+   "item_recipe_lotus_orb" 
+  {
+   "ItemCost" "90"
+  }
+  "item_lotus_orb"  
+  {
+   "ItemCost" "405"
+  }
+  "item_crimson_guard"  
+  {
+   "ItemCost" "82"
+  }
+  "item_recipe_crimson_guard" 
+  {
+   "ItemCost" "380"
+  }
+  "item_recipe_silver_edge" 
+  {
+   "ItemCost" "60"
+  }
+  "item_silver_edge"  
+  {
+   "ItemCost" "545"
+  }
+  "item_glimmer_cape" 
+  {
+   "ItemCost" "195"
+  }
+  "item_recipe_glimmer_cape"  
+  {
+   "ItemCost" "0"
+  }
+  "item_solar_crest"  
+  {
+   "ItemCost" "300"
+  }
+  "item_recipe_solar_crest" 
+  {
+   "ItemCost" "0"
+  }
+  "item_recipe_moon_shard"  
+  {
+   "ItemCost" "30"
+  }
+  "item_guardian_greaves" 
+  {
+   "ItemCost" "165"
+  }
+  "item_octarine_core"  
+  {
+   "ItemCost" "590"
+  }
+  "item_recipe_octarine_core" 
+  {
+   "ItemCost" "0"
+  }
+  "item_recipe_guardian_greaves" 
+  {
+   "ItemCost" "530"
+  }
+  "item_moon_shard" 
+  {
+   "ItemCost" "30"
+  }
+  "item_enchanted_mango"
+  {
+  "ItemCost"  "15"
+  }
+  "item_blades_of_attack"                 
+  {
+   "ItemCost" "42"
+  }
+  "item_broadsword"                       
+  {
+   "ItemCost" "120"
+  }
+  "item_chainmail"                        
+  {
+   "ItemCost" "55"
+  }
+  "item_claymore"                 
+  {
+   "ItemCost" "140"
+  }
+  "item_helm_of_iron_will"                        
+  {
+   "ItemCost" "95"
+  }
+  "item_javelin"                  
+  {
+   "ItemCost" "150"
+  }
+  "item_mithril_hammer"                   
+  {
+   "ItemCost" "160"
+  }
+  "item_platemail"                        
+  {
+   "ItemCost" "140"
+  }
+  "item_quarterstaff"                     
+  {
+   "ItemCost" "87"
+  }
+
+  "item_ring_of_protection"                       
+  {
+   "ItemCost" "20"
+  }
+  "item_stout_shield"                     
+  {
+   "ItemCost" "20"
+  }
+  "item_gauntlets"                        
+  {
+   "ItemCost" "15"
+  }
+  "item_slippers"                 
+  {
+   "ItemCost" "15"
+  }
+  "item_mantle"                   
+  {
+   "ItemCost" "15"
+  }
+  "item_branches"                 
+  {
+   "ItemCost" "5"
+  }
+  "item_belt_of_strength"                 
+  {
+   "ItemCost" "45"
+  }
+  "item_boots_of_elves"                   
+  {
+   "ItemCost" "45"
+  }
+  "item_robe"                     
+  {
+   "ItemCost" "45"
+  }
+  "item_circlet"                  
+  {
+   "ItemCost" "16"
+  }
+  "item_ogre_axe"                 
+  {
+   "ItemCost" "100"
+  }
+  "item_blade_of_alacrity"                        
+  {
+   "ItemCost" "100"
+  }
+  "item_staff_of_wizardry"                        
+  {
+   "ItemCost" "100"
+  }
+  "item_ultimate_orb"                     
+  {
+   "ItemCost" "210"
+  }
+  "item_gloves"                   
+  {
+   "ItemCost" "50"
+  }
+  "item_lifesteal"                        
+  {
+   "ItemCost" "90"
+  }
+  "item_ring_of_regen"                    
+  {
+   "ItemCost" "35"
+  }
+  "item_sobi_mask"                        
+  {
+   "ItemCost" "32"
+  }
+  "item_boots"                    
+  {
+   "ItemCost" "45"
+  }
+  "item_gem"                      
+  {
+   "ItemCost" "90"
+  }
+  "item_cloak"                    
+  {
+   "ItemCost" "55"
+  }
+  "item_talisman_of_evasion"                      
+  {
+   "ItemCost" "180"
+  }
+  "item_cheese"                   
+  {
+   "ItemCost" "1337"
+  }
+  "item_magic_stick"                      
+  {
+   "ItemCost" "20"
+  }
+  "item_recipe_magic_wand"                        
+  {
+   "ItemCost" "0"
+  }
+  "item_magic_wand"                       
+  {
+   "ItemCost" "46"
+  }
+  "item_ghost"                    
+  {
+   "ItemCost" "150"
+  }
+  "item_clarity"                  
+  {
+   "ItemCost" "5"
+  }
+  "item_flask"                    
+  {
+   "ItemCost" "11"
+  }
+  "item_dust"                     
+  {
+   "ItemCost" "18"
+  }
+  "item_bottle"                   
+  {
+   "ItemCost" "70"
+  }
+  "item_ward_observer"                    
+  {
+   "ItemCost" "7"
+  }
+  "item_ward_sentry"                      
+  {
+   "ItemCost" "20"
+  }
+  "item_tango"                    
+  {
+   "ItemCost" "12"
+  }
+  "item_tango_single"                     
+  {
+   "ItemCost" "3"
+  }
+  "item_courier"                  
+  {
+   "ItemCost" "12"
+  }
+  "item_tpscroll"                 "REMOVE"
+
+  "item_recipe_travel_boots"                      
+  {
+   "ItemCost" "250"
+  }
+
+  "item_recipe_travel_boots_2"
+  {
+    "ItemCost"  "0"  
+  }
+  "item_travel_boots_2"
+  {
+    "ItemCost"  "500"  
+  }
+
+  "item_travel_boots"                     
+  {
+   "ItemCost" "495"
+  }
+  "item_recipe_phase_boots"                       
+  {
+   "ItemCost" "0"
+  }
+  "item_phase_boots"                      
+  {
+   "ItemCost" "129"
+  }
+  "item_demon_edge"                       
+  {
+   "ItemCost" "240"
+  }
+  "item_eagle"                    
+  {
+   "ItemCost" "320"
+  }
+  "item_reaver"                   
+  {
+   "ItemCost" "300"
+  }
+  "item_relic"                    
+  {
+   "ItemCost" "380"
+  }
+  "item_hyperstone"                       
+  {
+   "ItemCost" "200"
+  }
+  "item_ring_of_health"                   
+  {
+   "ItemCost" "87"
+  }
+  "item_void_stone"                       
+  {
+   "ItemCost" "87"
+  }
+  "item_mystic_staff"                     
+  {
+   "ItemCost" "270"
+  }
+  "item_energy_booster"                   
+  {
+   "ItemCost" "90"
+  }
+  "item_point_booster"                    
+  {
+   "ItemCost" "120"
+  }
+  "item_vitality_booster"                 
+  {
+   "ItemCost" "110"
+  }
+  "item_recipe_power_treads"                      
+  {
+   "ItemCost" "0"
+  }
+  "item_power_treads"                     
+  {
+   "ItemCost" "140"
+  }
+  "item_recipe_hand_of_midas"                     
+  {
+   "ItemCost" "0"
+  }
+  "item_hand_of_midas"                    
+  {
+   "ItemCost" "0"
+  }
+  "item_recipe_oblivion_staff"                    
+  {
+   "ItemCost" "0"
+  }
+  "item_oblivion_staff"                   
+  {
+   "ItemCost" "165"
+  }
+  "item_recipe_pers"                      
+  {
+   "ItemCost" "0"
+  }
+  "item_pers"                     
+  {
+   "ItemCost" "175"
+  }
+  "item_recipe_poor_mans_shield"                  
+  {
+   "ItemCost" "0"
+  }
+  "item_poor_mans_shield"                 
+  {
+   "ItemCost" "50"
+  }
+  "item_recipe_bracer"                    
+  {
+   "ItemCost" "21"
+  }
+  "item_bracer"                   
+  {
+   "ItemCost" "52"
+  }
+  "item_recipe_wraith_band"                       
+  {
+   "ItemCost" "17"
+  }
+  "item_wraith_band"                      
+  {
+   "ItemCost" "48"
+  }
+  "item_recipe_null_talisman"                     
+  {
+   "ItemCost" "15"
+  }
+  "item_null_talisman"                    
+  {
+   "ItemCost" "47"
+  }
+  "item_recipe_mekansm"                   
+  {
+   "ItemCost" "90"
+  }
+  "item_mekansm"                  
+  {
+   "ItemCost" "230"
+  }
+  "item_recipe_vladmir"                   
+  {
+   "ItemCost" "90"
+  }
+  "item_vladmir"                  
+  {
+   "ItemCost" "292"
+  }
+  "item_flying_courier"                   
+  {
+   "ItemCost" "22"
+  }
+  "item_recipe_buckler"                   
+  {
+   "ItemCost" "20"
+  }
+  "item_buckler"                  
+  {
+   "ItemCost" "80"
+  }
+  "item_recipe_ring_of_basilius"                  
+  {
+   "ItemCost" "0"
+  }
+  "item_ring_of_basilius"                 
+  {
+   "ItemCost" "52"
+  }
+  "item_recipe_pipe"                      
+  {
+   "ItemCost" "80"
+  }
+  "item_pipe"                     
+  {
+   "ItemCost" "352"
+  }
+  "item_recipe_urn_of_shadows"                    
+  {
+   "ItemCost" "25"
+  }
+  "item_urn_of_shadows"                   
+  {
+   "ItemCost" "87"
+  }
+  "item_recipe_headdress"                 
+  {
+   "ItemCost" "20"
+  }
+  "item_headdress"                        
+  {
+   "ItemCost" "60"
+  }
+  "item_recipe_sheepstick"                        
+  {
+   "ItemCost" "0"
+  }
+  "item_sheepstick"                       
+  {
+   "ItemCost" "567"
+  }
+  "item_recipe_orchid"                    
+  {
+   "ItemCost" "77"
+  }
+  "item_orchid"                   
+  {
+   "ItemCost" "407"
+  }
+  "item_recipe_cyclone"                   
+  {
+   "ItemCost" "65"
+  }
+  "item_cyclone"                  
+  {
+   "ItemCost" "285"
+  }
+
+
+  "item_force_staff"                     "REMOVE"
+
+  
+  "item_recipe_dagon"                     
+  {
+   "ItemCost" "125"
+  }
+  "item_recipe_dagon_2"                   
+  {
+   "ItemCost" "0"
+  }
+  "item_recipe_dagon_3"                   
+  {
+   "ItemCost" "0"
+  }
+  "item_recipe_dagon_4"                   
+  {
+   "ItemCost" "0"
+  }
+  "item_recipe_dagon_5"                   
+  {
+   "ItemCost" "0"
+  }
+  "item_dagon"                    
+  {
+   "ItemCost" "272"
+  }
+  "item_dagon_2"                  
+  {
+   "ItemCost" "397"
+  }
+  "item_dagon_3"                  
+  {
+   "ItemCost" "522"
+  }
+  "item_dagon_4"                  
+  {
+   "ItemCost" "647"
+  }
+  "item_dagon_5"                  
+  {
+   "ItemCost" "772"
+  }
+  "item_recipe_necronomicon"                      
+  {
+   "ItemCost" "125"
+  }
+  "item_recipe_necronomicon_2"                    
+  {
+   "ItemCost" "125"
+  }
+  "item_recipe_necronomicon_3"                    
+  {
+   "ItemCost" "125"
+  }
+  "item_necronomicon"                     
+  {
+   "ItemCost" "270"
+  }
+  "item_necronomicon_2"                   
+  {
+   "ItemCost" "395"
+  }
+  "item_necronomicon_3"                   
+  {
+   "ItemCost" "520"
+  }
+  "item_recipe_ultimate_scepter"                  
+  {
+   "ItemCost" "0"
+  }
+  "item_ultimate_scepter"                 
+  {
+   "ItemCost" "420"
+  }
+  "item_recipe_refresher"                 
+  {
+   "ItemCost" "180"
+  }
+  "item_refresher"                        
+  {
+   "ItemCost" "530"
+  }
+  "item_recipe_assault"                   
+  {
+   "ItemCost" "130"
+  }
+  "item_assault"                  
+  {
+   "ItemCost" "525"
+  }
+  "item_recipe_heart"                     
+  {
+   "ItemCost" "140"
+  }
+  "item_heart"                    
+  {
+   "ItemCost" "550"
+  }
+  "item_recipe_black_king_bar"                    
+  {
+   "ItemCost" "137"
+  }
+  "item_black_king_bar"                   
+  {
+   "ItemCost" "397"
+  }
+  "item_aegis"                    
+  {
+   "ItemCost" "0"
+  }
+  "item_recipe_shivas_guard"                      
+  {
+   "ItemCost" "60"
+  }
+  "item_shivas_guard"                     
+  {
+   "ItemCost" "470"
+  }
+  "item_recipe_bloodstone"                        
+  {
+   "ItemCost" "90"
+  }
+  "item_bloodstone"                       
+  {
+   "ItemCost" "490"
+  }
+  "item_recipe_sphere"                    
+  {
+   "ItemCost" "132"
+  }
+  "item_sphere"                   
+  {
+   "ItemCost" "517"
+  }
+  "item_vanguard"                 
+  {
+   "ItemCost" "217"
+  }
+  "item_recipe_blade_mail"                        
+  {
+   "ItemCost" "0"
+  }
+  "item_blade_mail"                       
+  {
+   "ItemCost" "220"
+  }
+  "item_recipe_soul_booster"                      
+  {
+   "ItemCost" "0"
+  }
+  "item_soul_booster"                     
+  {
+   "ItemCost" "320"
+  }
+  "item_recipe_hood_of_defiance"                  
+  {
+   "ItemCost" "0"
+  }
+  "item_hood_of_defiance"                 
+  {
+   "ItemCost" "212"
+  }
+  "item_recipe_rapier"                    
+  {
+   "ItemCost" "0"
+  }
+  "item_rapier"                   
+  {
+   "ItemCost" "644"
+  }
+  "item_recipe_monkey_king_bar"                   
+  {
+   "ItemCost" "0"
+  }
+  "item_monkey_king_bar"                  
+  {
+   "ItemCost" "540"
+  }
+  "item_recipe_radiance"                  
+  {
+   "ItemCost" "142"
+  }
+  "item_radiance"                 
+  {
+   "ItemCost" "522"
+  }
+  "item_recipe_butterfly"                 
+  {
+   "ItemCost" "0"
+  }
+  "item_butterfly"                        
+  {
+   "ItemCost" "587"
+  }
+  "item_recipe_greater_crit"                      
+  {
+   "ItemCost" "100"
+  }
+  "item_greater_crit"                     
+  {
+   "ItemCost" "552"
+  }
+  "item_recipe_basher"                    
+  {
+   "ItemCost" "100"
+  }
+  "item_basher"                   
+  {
+   "ItemCost" "295"
+  }
+  "item_recipe_bfury"                     
+  {
+   "ItemCost" "0"
+  }
+  "item_bfury"                    
+  {
+   "ItemCost" "457"
+  }
+  "item_recipe_manta"                     
+  {
+   "ItemCost" "80"
+  }
+  "item_manta"                    
+  {
+   "ItemCost" "495"
+  }
+  "item_recipe_lesser_crit"                       
+  {
+   "ItemCost" "50"
+  }
+  "item_lesser_crit"                      
+  {
+   "ItemCost" "212"
+  }
+  "item_recipe_armlet"                    
+  {
+   "ItemCost" "50"
+  }
+  "item_armlet"                   
+  {
+   "ItemCost" "237"
+  }
+  "item_recipe_invis_sword"                       
+  {
+   "ItemCost" "0"
+  }
+  "item_invis_sword"                      
+  {
+   "ItemCost" "280"
+  }
+  "item_recipe_sange_and_yasha"                   
+  {
+   "ItemCost" "0"
+  }
+  "item_sange_and_yasha"                  
+  {
+   "ItemCost" "410"
+  }
+  "item_recipe_satanic"                   
+  {
+   "ItemCost" "110"
+  }
+  "item_satanic"                  
+  {
+   "ItemCost" "595"
+  }
+  "item_recipe_mjollnir"                  
+  {
+   "ItemCost" "90"
+  }
+  "item_mjollnir"                 
+  {
+   "ItemCost" "570"
+  }
+  "item_recipe_skadi"                     
+  {
+   "ItemCost" "0"
+  }
+  "item_skadi"                    
+  {
+   "ItemCost" "567"
+  }
+  "item_recipe_sange"                     
+  {
+   "ItemCost" "60"
+  }
+  "item_sange"                    
+  {
+   "ItemCost" "205"
+  }
+  "item_recipe_helm_of_the_dominator"                     
+  {
+   "ItemCost" "0"
+  }
+  "item_helm_of_the_dominator"                    
+  {
+   "ItemCost" "185"
+  }
+  "item_recipe_maelstrom"                 
+  {
+   "ItemCost" "70"
+  }
+  "item_maelstrom"                        
+  {
+   "ItemCost" "280"
+  }
+  "item_recipe_desolator"                 
+  {
+   "ItemCost" "30"
+  }
+  "item_desolator"                        
+  {
+   "ItemCost" "350"
+  }
+  "item_recipe_yasha"                     
+  {
+   "ItemCost" "60"
+  }
+  "item_yasha"                    
+  {
+   "ItemCost" "205"
+  }
+  "item_recipe_mask_of_madness"                   
+  {
+   "ItemCost" "90"
+  }
+  "item_mask_of_madness"                  
+  {
+   "ItemCost" "180"
+  }
+  "item_recipe_diffusal_blade"                    
+  {
+   "ItemCost" "70"
+  }
+  "item_recipe_diffusal_blade_2"                  
+  {
+   "ItemCost" "0"
+  }
+  "item_diffusal_blade"                   
+  {
+   "ItemCost" "315"
+  }
+  "item_diffusal_blade_2"                 
+  {
+   "ItemCost" "385"
+  }
+  "item_recipe_ethereal_blade"                    
+  {
+   "ItemCost" "0"
+  }
+  "item_ethereal_blade"                   
+  {
+   "ItemCost" "470"
+  }
+  "item_recipe_soul_ring"                 
+  {
+   "ItemCost" "12"
+  }
+  "item_soul_ring"                        
+  {
+   "ItemCost" "80"
+  }
+  "item_recipe_arcane_boots"                      
+  {
+   "ItemCost" "0"
+  }
+  "item_arcane_boots"                     
+  {
+   "ItemCost" "135"
+  }
+  "item_orb_of_venom"                     
+  {
+   "ItemCost" "27"
+  }
+  "item_recipe_ancient_janggo"                    
+  {
+   "ItemCost" "87"
+  }
+  "item_ancient_janggo"                   
+  {
+   "ItemCost" "185"
+  }
+  "item_recipe_medallion_of_courage"                      
+  {
+   "ItemCost" "32"
+  }
+  "item_medallion_of_courage"                     
+  {
+   "ItemCost" "120"
+  }
+  "item_smoke_of_deceit"                  
+  {
+   "ItemCost" "10"
+  }
+  "item_recipe_veil_of_discord"                   
+  {
+   "ItemCost" "110"
+  }
+  "item_veil_of_discord"                  
+  {
+   "ItemCost" "252"
+  }
+  "item_recipe_rod_of_atos"                       
+  {
+   "ItemCost" "0"
+  }
+  "item_rod_of_atos"                      
+  {
+   "ItemCost" "310"
+  }
+  "item_recipe_abyssal_blade"                     
+  {
+   "ItemCost" "0"
+  }
+  "item_abyssal_blade"                    
+  {
+   "ItemCost" "675"
+  }
+  "item_recipe_heavens_halberd"                   
+  {
+   "ItemCost" "0"
+  }
+  "item_heavens_halberd"                  
+  {
+   "ItemCost" "385"
+  }
+  "item_recipe_ring_of_aquila"                    
+  {
+   "ItemCost" "0"
+  }
+  "item_ring_of_aquila"                   
+  {
+   "ItemCost" "101"
+  }
+  "item_recipe_tranquil_boots"                    
+  {
+   "ItemCost" "0"
+  }
+  "item_tranquil_boots"                   
+  {
+   "ItemCost" "100"
+  }
+  "item_shadow_amulet"                    
+  {
+   "ItemCost" "140"
+  }
+}

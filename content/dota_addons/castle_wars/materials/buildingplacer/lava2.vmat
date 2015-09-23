@@ -1,0 +1,74 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "water_dota.vfx"
+
+	//---- Flow ----
+	F_FLOW_COLOR 1
+	F_FLOW_NORMALS 1
+
+	//---- Color ----
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/buildingplacer/lava_01.tga"
+
+	//---- Flow ----
+	g_flFlowTimeScale "0.918"
+
+	//---- Flow Color ----
+	g_flColorFlowLerpExp "1.000"
+	g_flColorFlowTimeIntervalInSeconds "0.400"
+	g_flColorFlowUvScale "4.592"
+	g_flColorFlowUvScrollDistance "0.745"
+
+	//---- Flow Noise ----
+	g_flNoiseStrength "2.000"
+	g_flNoiseUvScale "0.0500"
+	TextureNoise "materials/buildingplacer/lava_01.tga"
+
+	//---- Flow Normals ----
+	g_flNormalFlowLerpExp "0.673"
+	g_flNormalFlowTimeIntervalInSeconds "2.087"
+	g_flNormalFlowUvScrollDistance "0.612"
+	g_flNormalUvScale "295.918"
+	g_flWorldPositionScale "0.102"
+	g_flWorldUvScale "0.000"
+	TextureFlow "materials/buildingplacer/lava_02.tga"
+
+	//---- Low End ----
+	g_flLowEndBaseBloom "0.586"
+	g_flLowEndBloomPower "2.551"
+	g_flLowEndReflectionPower "1.000"
+	g_flLowEndSurfaceFactor "1.000"
+	g_flLowEndSurfaceMinimumColor "0.200"
+	g_flLowEndSurfaceOpacity "0.796"
+	g_vLowEndReflectionColor "[0.290196 0.286275 0.286275 0.000000]"
+	g_vLowEndReflectionDir "[0.814 0.545 -0.256]"
+	g_vLowEndSurfaceColor "[0.600000 0.000000 0.117647 0.000000]"
+
+	//---- Normal Map ----
+	g_flBumpStrength "8.367"
+	TextureNormal "materials/buildingplacer/lava_01.tga"
+
+	//---- Reflections ----
+	g_flReflectance "0.200"
+	g_flReflectionAmount "1.000"
+	g_vReflectionTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Refractions ----
+	g_flRefractionAmount "1.000"
+	g_vRefractionTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vWaterFogColor "[0.725490 0.725490 0.725490 0.000000]"
+
+	//---- Specular ----
+	g_flBaseBloom "0.100"
+	g_flBloomPower "1.000"
+	g_flReflectionPower "1.000"
+	g_vReflectionColor "[1.000000 1.000000 1.000000 0.000000]"
+	g_vReflectionDir "[0.000 0.000 1.000]"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "water"
+	}
+}

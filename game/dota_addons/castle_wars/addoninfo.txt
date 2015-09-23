@@ -1,0 +1,18 @@
+"AddonInfo"
+{
+  "TeamCount" "5"
+  "maps"      "kingmaker_5v5"
+  "IsPlayable"  "1"
+  "kingmaker_5v5"
+  {
+          "MaxPlayers"                    "20"
+  }
+//  "desert_duo"
+//  {
+//          "MaxPlayers"                    "10"
+//  }
+//  "forest_solo"
+//  {
+//          "MaxPlayers"                    "10"
+//  }
+}

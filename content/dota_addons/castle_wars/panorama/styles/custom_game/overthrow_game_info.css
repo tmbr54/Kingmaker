@@ -1,0 +1,151 @@
+
+.OverthrowGameInfo
+{
+    width:100%;
+    flow-children: down;
+}
+ 
+Label
+{
+
+
+    font-size: 18px;
+    color: #999999;
+    vertical-align: top;
+}
+ 
+#Title
+{
+    flow-children: right;
+}
+
+#TitleIcon
+{
+    width: 64px;
+    height: 64px;
+    vertical-align: center;
+}
+
+#TitleName
+{
+    color: #FFFFFF;
+    font-size: 72px;
+    margin-left:  0px;
+    margin-top: 1px;
+    text-transform: uppercase;
+    vertical-align: center;
+}
+
+#BriefDescription
+{
+	margin-left: 8px;
+}
+
+#ThroneText,
+#CoinsText,
+{
+    width: 50%;
+}
+
+.Header
+{
+	font-size: 18px;
+    font-weight: bold;
+	margin-top: 36px;
+	text-transform: uppercase;
+}
+
+#ObjectiveHeader
+{
+	margin-top: 18px;
+}
+
+#ThroneRow
+{
+    margin-top: -40px;
+}
+
+#ThroneText
+{	margin-left: 8px;
+    margin-top: 40px;
+	text-align: left;
+}
+
+#ThroneImage
+{
+    margin-top: 20px;
+    width: 200px;
+    height: 190px;
+}
+
+#CoinsRow
+{
+    margin-top: -150px;
+}
+
+
+#CoinsText
+{	margin-left: 8px;
+    margin-top: 160px;
+}
+
+#ItemsRow
+{
+    margin-top: 0px;
+}
+
+
+#ItemsText
+{
+    margin-top: 20px;
+	margin-left: 8px;
+	text-align: left;
+}
+
+#TipsHeader
+{
+	margin-top: 18px;
+}
+
+#TipsRow
+{
+	flow-children: down;
+	margin-right: 92px;
+	margin-top: 5px;
+}
+
+.TipText
+{
+	margin-left: 8px;
+    margin-top: 0px;
+}
+
+.InfoRow
+{
+    flow-children: right;
+    width: 100%;
+}
+
+
+Label .midas_throne,
+Label .overboss,
+Label .treasure,
+Label .squares
+{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+Label .mail,
+{
+    color: #6464FA;
+    font-weight: bold;
+}
+
+Label .items,
+Label .gold,
+Label .xp
+{
+    color: #fcaf3d;
+    font-weight: bold;
+}
