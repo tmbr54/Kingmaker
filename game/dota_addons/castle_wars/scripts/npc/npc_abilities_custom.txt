@@ -4,7 +4,7 @@
 {
  "Version"   "1"
 
-//GENERAL ABILITIES  
+//GENERAL ABILITIES
   "ability_building"
   {
     "BaseClass"                 "ability_datadriven"
@@ -19,7 +19,7 @@
       "particle"  "particles/clock_circle.vpcf"
 
     }
-    
+
 
 
     "Modifiers"
@@ -28,7 +28,7 @@
       {
         "Passive"     "1"
         "IsHidden"      "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
         "States"
         {
           "MODIFIER_STATE_MAGIC_IMMUNE" "MODIFIER_STATE_VALUE_ENABLED" // Makes most abilities don't affect this. Use custom damage
@@ -44,7 +44,7 @@
           "MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE"  "0.1"
         }
       }
-    }   
+    }
   }
 
   "change_rally_point"
@@ -60,7 +60,7 @@
     "precache"
     {
       "particle"  "particles/newplayer_fx/npx_moveto_arrow.vpcf"
-    }  
+    }
 
     "OnSpellStart"
     {
@@ -78,7 +78,7 @@
   {
     "BaseClass"                 "ability_datadriven"
     "MaxLevel"  "1"
-    
+
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
     "Modifiers"
     {
@@ -86,11 +86,11 @@
       {
         "Passive" "1"
         "IsHidden"  "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
 
       }
     }
-    
+
   }
 
   "has_population_1"
@@ -106,7 +106,7 @@
       {
         "Passive"     "1"
         "IsHidden"      "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
       }
     }
   }
@@ -125,7 +125,7 @@
       {
         "Passive"     "1"
         "IsHidden"      "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
       }
     }
   }
@@ -143,7 +143,7 @@
       {
         "Passive"     "1"
         "IsHidden"      "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
       }
     }
   }
@@ -161,7 +161,7 @@
       {
         "Passive"     "1"
         "IsHidden"      "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
       }
     }
   }
@@ -179,7 +179,7 @@
       {
         "Passive"     "1"
         "IsHidden"      "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
       }
     }
   }
@@ -192,24 +192,24 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "build"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
+
     "precache"
     {
-      
+
       "particle"  "particles/units/heroes/hero_bristleback/bristleback_quill_spray_ring_dust.vpcf"
     }
-    
+
 
     "OnChannelSucceeded"
     {
@@ -217,11 +217,11 @@
       {
         "ScriptFile"  "buildings/race2/claim_barracks.lua"
         "Function"    "cast_upgrade"
-      } 
+      }
     }
-    
+
   }
- 
+
 
 
 
@@ -232,17 +232,17 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "tower"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -251,7 +251,7 @@
         "ScriptFile"  "buildings/race2/upgrade_to_tower_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -259,16 +259,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -277,26 +277,26 @@
         "ScriptFile"  "buildings/race2/upgrade_to_melee_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
-  "upgrade_to_race_2_range_1" 
+  "upgrade_to_race_2_range_1"
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -305,7 +305,7 @@
         "ScriptFile"  "buildings/race2/upgrade_to_range_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -314,18 +314,18 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -334,7 +334,7 @@
         "ScriptFile"  "buildings/race2/upgrade_to_special_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -346,16 +346,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -364,26 +364,26 @@
         "ScriptFile"  "buildings/race2/upgrade_to_melee_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
-  "upgrade_to_race_2_range_2" 
+  "upgrade_to_race_2_range_2"
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -392,7 +392,7 @@
         "ScriptFile"  "buildings/race2/upgrade_to_range_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -401,18 +401,18 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -421,7 +421,7 @@
         "ScriptFile"  "buildings/race2/upgrade_to_special_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -437,16 +437,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "hu_melee_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "30"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -455,16 +455,16 @@
       {
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race2/spawn_tier_1_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -473,16 +473,16 @@
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -492,7 +492,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -505,16 +505,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "hu_melee_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "30"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -523,16 +523,16 @@
       {
         "ModifierName"  "spawn_tier_2_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race2/spawn_tier_2_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -541,16 +541,16 @@
         "ModifierName"  "spawn_tier_2_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -560,7 +560,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -571,16 +571,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "hu_range_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "45"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -589,16 +589,16 @@
       {
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race2/spawn_tier_1_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -607,16 +607,16 @@
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_ranger"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "45" 
+       "ThinkInterval"  "45"
        "OnIntervalThink"
         {
          "RunScript"
@@ -626,7 +626,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -638,16 +638,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "hu_range_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "45"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -656,16 +656,16 @@
       {
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race2/spawn_tier_2_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -674,16 +674,16 @@
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_ranger"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "45" 
+       "ThinkInterval"  "45"
        "OnIntervalThink"
         {
          "RunScript"
@@ -693,7 +693,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -707,16 +707,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "hu_special_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -725,16 +725,16 @@
       {
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race2/spawn_tier_1_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -743,16 +743,16 @@
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_supporter"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "60" 
+       "ThinkInterval"  "60"
        "OnIntervalThink"
         {
          "RunScript"
@@ -762,7 +762,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -775,16 +775,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "hu_special_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -793,16 +793,16 @@
       {
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race2/spawn_tier_2_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -811,16 +811,16 @@
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_supporter"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "60" 
+       "ThinkInterval"  "60"
        "OnIntervalThink"
         {
          "RunScript"
@@ -830,7 +830,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -842,17 +842,17 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "build"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
     "AbilitySharedWithTeammates" "1"
     "HotKeyOverride"  "Q"
-    
-    
+
+
 
     "OnChannelSucceeded"
     {
@@ -861,9 +861,9 @@
         "ScriptFile"  "buildings/race3/claim_barracks"
         "Function"    "cast_upgrade"
       }
-      
+
     }
-    
+
   }
 
 
@@ -871,17 +871,17 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "tower"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -890,7 +890,7 @@
         "ScriptFile"  "buildings/race3/upgrade_to_tower_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -900,16 +900,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -918,7 +918,7 @@
         "ScriptFile"  "buildings/race3/upgrade_to_melee_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -927,16 +927,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -945,7 +945,7 @@
         "ScriptFile"  "buildings/race3/upgrade_to_range_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -954,16 +954,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -972,7 +972,7 @@
         "ScriptFile"  "buildings/race3/upgrade_to_special_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -983,16 +983,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1001,26 +1001,26 @@
         "ScriptFile"  "buildings/race3/upgrade_to_melee_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
-  "upgrade_to_race_3_range_2" 
+  "upgrade_to_race_3_range_2"
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1029,7 +1029,7 @@
         "ScriptFile"  "buildings/race3/upgrade_to_range_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -1038,18 +1038,18 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1058,7 +1058,7 @@
         "ScriptFile"  "buildings/race3/upgrade_to_special_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -1074,15 +1074,15 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ow_melee_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
+
     "AbilityGoldCost"    "0"
     "AbilityCooldown"    "30"
-    
-    
-    
+
+
+
 
     "OnToggleOn"
     {
@@ -1091,16 +1091,16 @@
       {
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race3/spawn_tier_1_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1109,16 +1109,16 @@
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -1126,9 +1126,9 @@
              "ScriptFile"  "buildings/race3/spawn_tier_1_footman.lua"
              "Function"    "spawn_unit"
           }
-           
+
          }
-       
+
        }
      }
   }
@@ -1138,11 +1138,11 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ow_range_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
    "AbilityCooldown"    "45"
     "OnToggleOn"
     {
@@ -1151,16 +1151,16 @@
       {
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race3/spawn_tier_1_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1169,9 +1169,9 @@
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
@@ -1188,7 +1188,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -1198,16 +1198,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ow_special_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -1216,16 +1216,16 @@
       {
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race3/spawn_tier_1_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1234,9 +1234,9 @@
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
@@ -1253,7 +1253,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -1263,15 +1263,15 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ow_melee_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
+
     "AbilityGoldCost"    "0"
     "AbilityCooldown"    "30"
-    
-    
-    
+
+
+
 
     "OnToggleOn"
     {
@@ -1280,16 +1280,16 @@
       {
         "ModifierName"  "spawn_tier_2_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race3/spawn_tier_2_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1298,16 +1298,16 @@
         "ModifierName"  "spawn_tier_2_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -1315,9 +1315,9 @@
              "ScriptFile"  "buildings/race3/spawn_tier_2_footman.lua"
              "Function"    "spawn_unit"
           }
-           
+
          }
-       
+
        }
      }
   }
@@ -1327,11 +1327,11 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ow_range_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
    "AbilityCooldown"    "45"
     "OnToggleOn"
     {
@@ -1340,16 +1340,16 @@
       {
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race3/spawn_tier_2_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1358,9 +1358,9 @@
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
@@ -1377,7 +1377,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -1387,16 +1387,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ow_special_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -1405,16 +1405,16 @@
       {
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race3/spawn_tier_2_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1423,9 +1423,9 @@
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
@@ -1442,7 +1442,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -1458,20 +1458,20 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "build"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1480,26 +1480,26 @@
         "ScriptFile"  "buildings/race6/claim_barracks.lua"
         "Function"    "cast_upgrade"
       }
-      
+
     }
-    
+
   }
 
     "upgrade_to_race_6_tower_1"
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "tower"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1508,7 +1508,7 @@
         "ScriptFile"  "buildings/race6/upgrade_to_tower_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -1518,20 +1518,20 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1540,7 +1540,7 @@
         "ScriptFile"  "buildings/race6/upgrade_to_melee_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -1548,20 +1548,20 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1570,7 +1570,7 @@
         "ScriptFile"  "buildings/race6/upgrade_to_range_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -1578,20 +1578,20 @@
 {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1600,7 +1600,7 @@
         "ScriptFile"  "buildings/race6/upgrade_to_special_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -1609,16 +1609,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1627,26 +1627,26 @@
         "ScriptFile"  "buildings/race6/upgrade_to_melee_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
-  "upgrade_to_race_6_range_2" 
+  "upgrade_to_race_6_range_2"
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1655,7 +1655,7 @@
         "ScriptFile"  "buildings/race6/upgrade_to_range_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -1664,18 +1664,18 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -1684,7 +1684,7 @@
         "ScriptFile"  "buildings/race6/upgrade_to_special_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -1699,14 +1699,14 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ud_melee_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "30"
 
-    
+
 
     "OnToggleOn"
     {
@@ -1715,16 +1715,16 @@
       {
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race6/spawn_tier_1_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1733,16 +1733,16 @@
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -1750,9 +1750,9 @@
              "ScriptFile"  "buildings/race6/spawn_tier_1_footman.lua"
              "Function"    "spawn_unit"
           }
-           
+
          }
-       
+
        }
      }
   }
@@ -1765,16 +1765,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ud_range_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "45"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -1783,16 +1783,16 @@
       {
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race6/spawn_tier_1_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1801,16 +1801,16 @@
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_ranger"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "45" 
+       "ThinkInterval"  "45"
        "OnIntervalThink"
         {
          "RunScript"
@@ -1820,7 +1820,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -1830,16 +1830,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ud_special_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -1848,16 +1848,16 @@
       {
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race6/spawn_tier_1_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1866,16 +1866,16 @@
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_supporter"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "60" 
+       "ThinkInterval"  "60"
        "OnIntervalThink"
         {
          "RunScript"
@@ -1885,7 +1885,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -1900,14 +1900,14 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ud_melee_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "30"
 
-    
+
 
     "OnToggleOn"
     {
@@ -1916,16 +1916,16 @@
       {
         "ModifierName"  "spawn_tier_2_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race6/spawn_tier_2_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -1934,16 +1934,16 @@
         "ModifierName"  "spawn_tier_2_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -1951,9 +1951,9 @@
              "ScriptFile"  "buildings/race6/spawn_tier_2_footman.lua"
              "Function"    "spawn_unit"
           }
-           
+
          }
-       
+
        }
      }
   }
@@ -1966,16 +1966,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ud_range_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "45"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -1984,16 +1984,16 @@
       {
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race6/spawn_tier_2_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -2002,16 +2002,16 @@
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_ranger"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "45" 
+       "ThinkInterval"  "45"
        "OnIntervalThink"
         {
          "RunScript"
@@ -2021,7 +2021,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -2031,16 +2031,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "ud_special_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -2049,16 +2049,16 @@
       {
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race6/spawn_tier_2_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -2067,16 +2067,16 @@
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_supporter"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "60" 
+       "ThinkInterval"  "60"
        "OnIntervalThink"
         {
          "RunScript"
@@ -2086,7 +2086,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -2098,17 +2098,17 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "tower"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2117,7 +2117,7 @@
         "ScriptFile"  "buildings/race7/upgrade_to_tower_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -2125,20 +2125,20 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "build"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2147,9 +2147,9 @@
         "ScriptFile"  "buildings/race7/claim_barracks.lua"
         "Function"    "cast_upgrade"
       }
-      
+
     }
-    
+
   }
 
 
@@ -2158,20 +2158,20 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2180,7 +2180,7 @@
         "ScriptFile"  "buildings/race7/upgrade_to_melee_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -2188,20 +2188,20 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2210,7 +2210,7 @@
         "ScriptFile"  "buildings/race7/upgrade_to_range_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -2218,20 +2218,20 @@
 {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2240,7 +2240,7 @@
         "ScriptFile"  "buildings/race7/upgrade_to_special_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -2249,16 +2249,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2267,26 +2267,26 @@
         "ScriptFile"  "buildings/race7/upgrade_to_melee_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
-  "upgrade_to_race_7_range_2" 
+  "upgrade_to_race_7_range_2"
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2295,7 +2295,7 @@
         "ScriptFile"  "buildings/race7/upgrade_to_range_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -2304,18 +2304,18 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2324,7 +2324,7 @@
         "ScriptFile"  "buildings/race7/upgrade_to_special_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -2338,13 +2338,13 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "sf_melee_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
-    
-    
+
+
+
+
 
     "OnToggleOn"
     {
@@ -2353,16 +2353,16 @@
       {
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race7/spawn_tier_1_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -2371,16 +2371,16 @@
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -2388,13 +2388,13 @@
              "ScriptFile"  "buildings/race7/spawn_tier_1_footman.lua"
              "Function"    "spawn_unit"
           }
-           
+
          }
-       
+
        }
      }
   }
-    
+
     "AbilityCooldown"    "30"
 
 
@@ -2403,16 +2403,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "sf_range_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "45"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -2421,16 +2421,16 @@
       {
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race7/spawn_tier_1_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -2439,16 +2439,16 @@
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_ranger"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "45" 
+       "ThinkInterval"  "45"
        "OnIntervalThink"
         {
           "RunScript"
@@ -2458,7 +2458,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -2468,16 +2468,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "sf_special_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -2486,16 +2486,16 @@
       {
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race7/spawn_tier_1_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -2504,16 +2504,16 @@
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_supporter"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "60" 
+       "ThinkInterval"  "60"
        "OnIntervalThink"
         {
          "RunScript"
@@ -2523,7 +2523,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -2535,13 +2535,13 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "sf_melee_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
-    
-    
+
+
+
+
 
     "OnToggleOn"
     {
@@ -2550,16 +2550,16 @@
       {
         "ModifierName"  "spawn_tier_2_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race7/spawn_tier_2_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -2568,16 +2568,16 @@
         "ModifierName"  "spawn_tier_2_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -2585,13 +2585,13 @@
              "ScriptFile"  "buildings/race7/spawn_tier_2_footman.lua"
              "Function"    "spawn_unit"
           }
-           
+
          }
-       
+
        }
      }
   }
-    
+
     "AbilityCooldown"    "30"
 
 
@@ -2600,16 +2600,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "sf_range_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "45"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -2618,16 +2618,16 @@
       {
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race7/spawn_tier_2_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -2636,16 +2636,16 @@
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_ranger"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "45" 
+       "ThinkInterval"  "45"
        "OnIntervalThink"
         {
           "RunScript"
@@ -2655,7 +2655,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -2665,16 +2665,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "sf_special_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -2683,16 +2683,16 @@
       {
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race7/spawn_tier_2_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -2701,16 +2701,16 @@
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_supporter"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "60" 
+       "ThinkInterval"  "60"
        "OnIntervalThink"
         {
          "RunScript"
@@ -2720,7 +2720,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -2737,17 +2737,17 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "tower"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2756,27 +2756,27 @@
         "ScriptFile"  "buildings/race8/upgrade_to_tower_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
   "race_8_claim_barracks"
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "build"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2785,9 +2785,9 @@
         "ScriptFile"  "buildings/race8/claim_barracks.lua"
         "Function"    "cast_upgrade"
       }
-      
+
     }
-    
+
   }
 
 
@@ -2796,20 +2796,20 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2818,7 +2818,7 @@
         "ScriptFile"  "buildings/race8/upgrade_to_melee_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -2826,20 +2826,20 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2848,7 +2848,7 @@
         "ScriptFile"  "buildings/race8/upgrade_to_range_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -2856,20 +2856,20 @@
 {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
     "AbilitySharedWithTeammates" "1"
 
-    "HotKeyOverride"    "Q" 
+    "HotKeyOverride"    "Q"
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2878,7 +2878,7 @@
         "ScriptFile"  "buildings/race8/upgrade_to_special_1"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
@@ -2889,16 +2889,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "melee_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2907,26 +2907,26 @@
         "ScriptFile"  "buildings/race8/upgrade_to_melee_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
   }
 
-  "upgrade_to_race_8_range_2" 
+  "upgrade_to_race_8_range_2"
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "range_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2935,7 +2935,7 @@
         "ScriptFile"  "buildings/race8/upgrade_to_range_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -2944,18 +2944,18 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "special_rax_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
 
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
- 
-    
+
+
     "AbilityCooldown"    "5"
     "AbilityChannelTime" "5"
-    
-    
-    
+
+
+
 
     "OnChannelSucceeded"
     {
@@ -2964,7 +2964,7 @@
         "ScriptFile"  "buildings/race8/upgrade_to_special_2"
         "Function"    "cast_upgrade"
       }
-      
+
     }
 
   }
@@ -2982,15 +2982,15 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "gn_melee_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "30"
-    
-    
-    
+
+
+
 
     "OnToggleOn"
     {
@@ -2999,16 +2999,16 @@
       {
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race8/spawn_tier_1_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -3017,16 +3017,16 @@
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -3034,9 +3034,9 @@
              "ScriptFile"  "buildings/race8/spawn_tier_1_footman.lua"
              "Function"    "spawn_unit"
           }
-           
+
          }
-       
+
        }
      }
   }
@@ -3048,16 +3048,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "gn_range_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "45"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -3066,16 +3066,16 @@
       {
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race8/spawn_tier_1_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -3084,16 +3084,16 @@
         "ModifierName"  "spawn_tier_1_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_ranger"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "45" 
+       "ThinkInterval"  "45"
        "OnIntervalThink"
         {
          "RunScript"
@@ -3103,7 +3103,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -3113,16 +3113,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "gn_special_1_1"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -3131,16 +3131,16 @@
       {
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race8/spawn_tier_1_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -3149,16 +3149,16 @@
         "ModifierName"  "spawn_tier_1_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
- 
+
       "spawn_tier_1_supporter"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "60" 
+       "ThinkInterval"  "60"
        "OnIntervalThink"
         {
          "RunScript"
@@ -3168,7 +3168,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -3176,7 +3176,7 @@
 
 
 
-  
+
 
 
 
@@ -3191,15 +3191,15 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "gn_melee_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "30"
-    
-    
-    
+
+
+
 
     "OnToggleOn"
     {
@@ -3208,16 +3208,16 @@
       {
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race8/spawn_tier_2_footman.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -3226,16 +3226,16 @@
         "ModifierName"  "spawn_tier_1_footman"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_1_footman"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "30" 
+       "ThinkInterval"  "30"
        "OnIntervalThink"
         {
          "RunScript"
@@ -3243,9 +3243,9 @@
              "ScriptFile"  "buildings/race8/spawn_tier_2_footman.lua"
              "Function"    "spawn_unit"
           }
-           
+
          }
-       
+
        }
      }
   }
@@ -3257,16 +3257,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "gn_range_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "45"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -3275,16 +3275,16 @@
       {
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race8/spawn_tier_2_ranger.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -3293,16 +3293,16 @@
         "ModifierName"  "spawn_tier_2_ranger"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
 
       "spawn_tier_2_ranger"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "45" 
+       "ThinkInterval"  "45"
        "OnIntervalThink"
         {
          "RunScript"
@@ -3312,7 +3312,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -3322,16 +3322,16 @@
   {
     "BaseClass"             "ability_datadriven"
     "AbilityTextureName"    "gn_special_1_2"
-    "MaxLevel"              "1" 
+    "MaxLevel"              "1"
 
     "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
- 
-    
+
+
     "AbilityCooldown"    "60"
-    
 
 
-    
+
+
 
     "OnToggleOn"
     {
@@ -3340,16 +3340,16 @@
       {
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
-        
+
       }
       "RunScript"
       {
         "ScriptFile"  "buildings/race8/spawn_tier_2_supporter.lua"
         "Function"    "spawn_unit"
       }
-      
+
     }
-      
+
 
     "OnToggleOff"
     {
@@ -3358,16 +3358,16 @@
         "ModifierName"  "spawn_tier_2_supporter"
         "Target"     "CASTER"
       }
-      
+
     }
-    
+
     "Modifiers"
     {
- 
+
       "spawn_tier_2_supporter"
       {
        "IsHidden"      "1"
-       "ThinkInterval"  "60" 
+       "ThinkInterval"  "60"
        "OnIntervalThink"
         {
          "RunScript"
@@ -3377,7 +3377,7 @@
           }
 
          }
-       
+
        }
      }
   }
@@ -3391,14 +3391,14 @@
     "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
     "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
     "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL"
-    "MaxLevel" "3" 
+    "MaxLevel" "3"
 
 
     "AbilityTextureName"            "chen_hand_of_god"
 
     "AbilityCastRange"              "450"
 
-    "AbilityCooldown"               "30 20 10" 
+    "AbilityCooldown"               "30 20 10"
 
     "AbilityManaCost"               "20 40 60"
 
@@ -3417,7 +3417,7 @@
           "duration"  "0.3 0.6 0.9"
         }
     }
-    
+
     "precache"
     {
       "particle"  "particles/items_fx/bloodstone_heal.vpcf"
@@ -3439,7 +3439,7 @@
         "EffectAttachType"  "follow_origin"
         "Target"            "TARGET"
       }
-      
+
       "Heal"
       {
         "Target"        "TARGET"
@@ -3465,12 +3465,12 @@
         "EffectAttachType"  "follow_overhead"
         "States"
         {
-          "MODIFIER_STATE_INVULNERABLE"    "MODIFIER_STATE_VALUE_ENABLED" 
+          "MODIFIER_STATE_INVULNERABLE"    "MODIFIER_STATE_VALUE_ENABLED"
         }
       }
     }
   }
-  
+
   "race_3_shaman_buff"
   {
     // General
@@ -3488,11 +3488,11 @@
     //-------------------------------------------------------------------------------------------------------------
     "AbilityCastRange"              "400"
     "AbilityCastPoint"              "0.5 0.5 0.5"
-    
-    // Time     
+
+    // Time
     //-------------------------------------------------------------------------------------------------------------
     "AbilityCooldown"               "30 20 10"
-    
+
     // Cost
     //-------------------------------------------------------------------------------------------------------------
     "AbilityManaCost"               "25 50 75"
@@ -3501,7 +3501,7 @@
     //-------------------------------------------------------------------------------------------------------------
     "AbilityModifierSupportValue"   "3.0"   // Value much higher than cost.
 
-    
+
     // Special
     //-------------------------------------------------------------------------------------------------------------
     "AbilitySpecial"
@@ -3543,7 +3543,7 @@
           "EffectName"  "Hero_OgreMagi.Bloodlust.Target"
           "Target"     "TARGET"
         }
-        
+
 
         "FireEffect"
         {
@@ -3571,15 +3571,15 @@
             "Properties"
             {
               "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%bonus_attack_speed"
-              "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%bonus_movement_speed" 
+              "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%bonus_movement_speed"
             }
-            
-  
+
+
         }
     }
 }
 
-  
+
 
 
 
@@ -3601,8 +3601,8 @@
     //-------------------------------------------------------------------------------------------------------------
     "precache"
     {
-        "soundfile"     "soundevents/game_sounds_heroes/game_sounds_bane.vsndevts"      
-        "particle"      "particles/units/heroes/hero_bane/bane_enfeeble.vpcf"       
+        "soundfile"     "soundevents/game_sounds_heroes/game_sounds_bane.vsndevts"
+        "particle"      "particles/units/heroes/hero_bane/bane_enfeeble.vpcf"
     }
 
     // Casting
@@ -3610,14 +3610,14 @@
     "AbilityCastRange"              "450"
     "AbilityCastPoint"              "0.5 0.5 0.5 0.5"
 
-    // Time     
+    // Time
     //-------------------------------------------------------------------------------------------------------------
     "AbilityCooldown"               "30 20 10"
     "AbilityDuration"               "10 20 30"
 
     // Cost
     //-------------------------------------------------------------------------------------------------------------
-    "AbilityManaCost"               "100 120 150"        
+    "AbilityManaCost"               "100 120 150"
 
     // Special
     //-------------------------------------------------------------------------------------------------------------
@@ -3629,10 +3629,10 @@
             "enfeeble_attack_reduction"     "-5 -15 -30"
         }
         "02"
-        { 
+        {
           "var_type"   "FIELD_FLOAT"
           "enfeeble_movespeed_reduction"  "-5 -15 -20"
-        } 
+        }
     }
 
     "OnSpellStart"
@@ -3664,7 +3664,7 @@
             "Duration"  "%AbilityDuration"
             "IsPurgable"    "0"
             "EffectName"    "particles/units/heroes/hero_bane/bane_enfeeble.vpcf"
-            "EffectAttachType"  "follow_overhead"           
+            "EffectAttachType"  "follow_overhead"
 
             "Properties"
             {
@@ -3694,8 +3694,8 @@
     //-------------------------------------------------------------------------------------------------------------
     "precache"
     {
-        "soundfile"     "soundevents/game_sounds_heroes/game_sounds_tidehunter.vsndevts"    
-        "particle"      "particles/econ/items/kunkka/kunkka_torrent_base/kunkka_spell_torrent_splash_econ.vpcf"       
+        "soundfile"     "soundevents/game_sounds_heroes/game_sounds_tidehunter.vsndevts"
+        "particle"      "particles/econ/items/kunkka/kunkka_torrent_base/kunkka_spell_torrent_splash_econ.vpcf"
     }
 
     // Casting
@@ -3703,14 +3703,14 @@
     "AbilityCastRange"              "450"
     "AbilityCastPoint"              "0.5 0.5 0.5 0.5"
 
-    // Time     
+    // Time
     //-------------------------------------------------------------------------------------------------------------
     "AbilityCooldown"               "30 20 10"
     "AbilityDuration"               "1.5 2.0 3"
 
     // Cost
     //-------------------------------------------------------------------------------------------------------------
-    "AbilityManaCost"               "50 75 100"        
+    "AbilityManaCost"               "50 75 100"
 
     // Special
     //-------------------------------------------------------------------------------------------------------------
@@ -3771,9 +3771,9 @@
                 "Target"            "TARGET"
                 "EffectRadius"   "100"
               }
-              
+
             }
-            
+
             "OnTakeDamage"
             {
               "RemoveModifier"
@@ -3805,8 +3805,8 @@
     //-------------------------------------------------------------------------------------------------------------
     "precache"
     {
-      "soundfile"     "soundevents/game_sounds_heroes/game_sounds_visage.vsndevts"    
-      "particle"  "particles/units/heroes/hero_earth_spirit/espirit_stoneremnant_groundrise.vpcf"       
+      "soundfile"     "soundevents/game_sounds_heroes/game_sounds_visage.vsndevts"
+      "particle"  "particles/units/heroes/hero_earth_spirit/espirit_stoneremnant_groundrise.vpcf"
       "particle"  "particles/units/heroes/hero_brewmaster/brewmaster_pulverize.vpcf"
     }
 
@@ -3815,14 +3815,14 @@
     "AbilityCastRange"              "450"
     "AbilityCastPoint"              "0.5 0.5 0.5 0.5"
 
-    // Time     
+    // Time
     //-------------------------------------------------------------------------------------------------------------
     "AbilityCooldown"               "30 20 10"
     "AbilityDuration"               "10 20 30"
 
     // Cost
     //-------------------------------------------------------------------------------------------------------------
-    "AbilityManaCost"               "75 100 125"        
+    "AbilityManaCost"               "75 100 125"
 
     // Special
     //-------------------------------------------------------------------------------------------------------------
@@ -3878,14 +3878,14 @@
         "IsPurgable"    "1"
         "StatusEffectName" "particles/status_fx/status_effect_statue.vpcf"
         "StatusEffectPriority" "10"
-        
+
         "Properties"
         {
           "MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE" "%absolute_movement_speed"
           "MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE" "%bonus_damage_percent"
           "MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE" "%damage_reduction"
         }
-        
+
 
         "OnCreated"
         {
@@ -3907,13 +3907,13 @@
             "EffectRadius"   "100"
             "EffectDurationScale" "1.5"
           }
-          
+
         }
-        
+
       }
     }
 
-  } 
+  }
 
 
 
@@ -3942,7 +3942,7 @@
         "Passive"     "1"
         "IsHidden"      "1"
         "IsPurgable"        "0"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
         "Properties"
         {
           "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%armor_bonus"
@@ -3968,9 +3968,9 @@
     //-------------------------------------------------------------------------------------------------------------
     "precache"
     {
-      
+
       "particle"  "particles/mortar_particle/mortar_explosion.vpcf"
-       
+
     }
 
     // Special
@@ -4012,7 +4012,7 @@
               "03"  "0 0 80"
               "07"  "0 0 80"
             }
-            
+
 
           }
           "RunScript"
@@ -4027,7 +4027,7 @@
 
 
 
-  
+
   "extra_damage_melee"
   {
     "BaseClass"                 "ability_datadriven"
@@ -4051,7 +4051,7 @@
         "Passive"     "1"
         "IsHidden"      "1"
         "IsPurgable"        "0"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
         "Properties"
         {
           "MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE" "%bonus_damage_percent"
@@ -4085,8 +4085,8 @@
         "Passive"     "1"
         "IsHidden"      "1"
         "IsPurgable"        "0"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
-        
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
+
         "OnAttacked"
         {
           "RunScript"
@@ -4095,14 +4095,14 @@
             "Function"    "ability"
           }
         }
-        
+
       }
     }
   }
 
 
 
-  "attackspeed_slow" 
+  "attackspeed_slow"
   {
     "BaseClass"                 "ability_datadriven"
     "MaxLevel"            "3"
@@ -4114,7 +4114,7 @@
     {
       "particle"  "particles\bug_particle\aspdslow.vpcf"
     }
-    
+
     "AbilitySpecial"
     {
       "01"
@@ -4144,19 +4144,19 @@
           "ApplyModifier"
           {
             "ModifierName"  "modifier_reduce_attackspeed_debuff"
-            "Target"     "TARGET"    
+            "Target"     "TARGET"
           }
         }
 
       }
-      
+
       "modifier_reduce_attackspeed_debuff"
       {
 
         "Duration"  "%duration"
         "IsDebuff"          "1"
         "IsPurgable"        "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
         "EffectName"    "particles\bug_particle\aspdslow.vpcf"
         "EffectAttachType"  "follow_overhead"
         "Properties"
@@ -4181,7 +4181,7 @@
       "01"
       {
         "var_type"                      "FIELD_INTEGER"
-        "extra_movespeed"            "5 15 25" 
+        "extra_movespeed"            "5 15 25"
       }
     }
 
@@ -4192,7 +4192,7 @@
         "Passive"     "1"
         "IsHidden"      "1"
         "IsPurgable"        "0"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
         "Properties"
         {
           "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT" "%extra_movespeed"
@@ -4215,7 +4215,7 @@
     {
       "particle"  "particles\water_drips_particle\waterdrips.vpcf"
     }
-    
+
     "AbilitySpecial"
     {
       "01"
@@ -4245,19 +4245,19 @@
           "ApplyModifier"
           {
             "ModifierName"  "modifier_attackdamage_reduction_debuff"
-            "Target"     "TARGET"    
+            "Target"     "TARGET"
           }
         }
 
       }
-      
+
       "modifier_attackdamage_reduction_debuff"
       {
 
         "Duration"  "%duration"
         "IsDebuff"          "1"
         "IsPurgable"        "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
         "EffectName"    "particles\water_drips_particle\waterdrips.vpcf"
         "EffectAttachType"  "follow_origin"
         "Properties"
@@ -4283,7 +4283,7 @@
       "01"
       {
         "var_type"                      "FIELD_INTEGER"
-        "extra_range"            "10 30 50" 
+        "extra_range"            "10 30 50"
       }
     }
 
@@ -4294,7 +4294,7 @@
         "Passive"     "1"
         "IsHidden"      "1"
         "IsPurgable"        "0"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
         "Properties"
         {
           "MODIFIER_PROPERTY_ATTACK_RANGE_BONUS" "%extra_range"
@@ -4336,10 +4336,10 @@
         "Passive"     "1"
         "IsHidden"      "1"
         "IsPurgable"        "0"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
         "Properties"
         {
-          "MODIFIER_PROPERTY_BONUS_DAY_VISION"  "%extra_dvision" 
+          "MODIFIER_PROPERTY_BONUS_DAY_VISION"  "%extra_dvision"
           "MODIFIER_PROPERTY_BONUS_NIGHT_VISION" "%extra_nvision"
 
         }
@@ -4347,7 +4347,7 @@
     }
   }
 
-    
+
    "movespeed_slow"
   {
     "BaseClass"                 "ability_datadriven"
@@ -4360,7 +4360,7 @@
     {
       "particle"  "particles\slow_arrows\slowarrows.vpcf"
     }
-    
+
     "AbilitySpecial"
     {
       "01"
@@ -4390,19 +4390,19 @@
           "ApplyModifier"
           {
             "ModifierName"  "modifier_movespeed_slow_debuff"
-            "Target"     "TARGET"    
+            "Target"     "TARGET"
           }
         }
 
       }
-      
+
       "modifier_movespeed_slow_debuff"
       {
 
         "Duration"  "%duration"
         "IsDebuff"          "1"
         "IsPurgable"        "1"
-        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT" 
+        "Attributes"    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_PERMANENT"
         "EffectName"    "particles\slow_arrows\slowarrows.vpcf"
         "EffectAttachType"  "follow_origin"
         "Properties"

@@ -9,7 +9,7 @@
 
 
   "building_helper"
-  {  
+  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/dragon_knight/dragon_knight.vmdl"
     "ModelScale"    "1"
@@ -20,10 +20,10 @@
 
     //Abilities
     "AbilityLayout" "4"
-    
+
     "Ability2"  "race_2_train_melee_1"
     "Ability1"  "change_rally_point"
-    
+
 
     // Armor
     //----------------------------------------------------------------
@@ -52,7 +52,7 @@
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -95,7 +95,7 @@
             "Wearable3" { "ItemDef" "65" }
             "Wearable4" { "ItemDef" "66" }
             "Wearable5" { "ItemDef" "67" }
-            "Wearable6" { "ItemDef" "68" }    
+            "Wearable6" { "ItemDef" "68" }
         }
     }
 
@@ -114,11 +114,11 @@
     "Level" "100"
     "HealthbarOffset"   "300"
     "ConsideredHero"        "1"
-    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
     "ProjectileSpeed"            "1000"
 
     "precache"
-    { 
+    {
         //"model" "models/heroes/omniknight/omniknight.vmdl"
         "particle"  "particles/units/heroes/hero_omniknight/omniknight_degen_aura.vpcf"
         "particle"  "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
@@ -130,10 +130,10 @@
     //Abilities
 
     "AbilityLayout" "4"
-    
 
 
-    
+
+
     "Ability3"              "omniknight_degen_aura"
     "Ability6"  "is_king"
 
@@ -171,7 +171,7 @@
     //----------------------------------------------------------------
     "ArmorPhysical"                         "50"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -182,13 +182,13 @@
     "AttackAnimationPoint"                  "0.5"
     "AttackAcquisitionRange"                "500"
     "AttackRange"                           "400"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "100"
     "CollisionSize"                         "41"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
     // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -206,7 +206,7 @@
             "Wearable4" { "ItemDef" "7236" }
             "Wearable5" { "ItemDef" "7237" }
             "Wearable6" { "ItemDef" "45"   }
-            
+
         }
     }
 
@@ -218,10 +218,10 @@
   {
     //General
     "BaseClass" "npc_dota_creature"
-    
+
     "Model" "models/sign/techies_sign_barracks.vmdl"
     //"Model" "models/heroes/pedestal/effigy_pedestal_radiant.vmdl" //replace with a proper model
-    
+
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
     "ModelScale"     "1.5"
@@ -235,7 +235,7 @@
         //"model" "models/sign/techies_sign_barracks.vmdl"
         "particle"  "particles/econ/courier/courier_baekho/courier_baekho_ambient.vpcf"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -273,7 +273,7 @@
     "StatusHealthRegen"                     "0"
     "StatusMana"                            "0"
     "StatusManaRegen"                       "0"
-   
+
     // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -293,10 +293,10 @@
   {
     //General
     "BaseClass" "npc_dota_creature"
-    
+
     "Model" "models/sign_tower/techies_sign_tower.vmdl"
     //"Model" "models/heroes/pedestal/effigy_pedestal_radiant.vmdl" //replace with a proper model
-    
+
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
     "ModelScale"     "1.5"
@@ -310,7 +310,7 @@
         //"Model" "models/sign_tower/techies_sign_tower.vmdl"
 
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -348,7 +348,7 @@
     "StatusHealthRegen"                     "0"
     "StatusMana"                            "0"
     "StatusManaRegen"                       "0"
-   
+
     // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -368,7 +368,7 @@
     //General
     "BaseClass" "npc_dota_creature"
     "Model" "models/heroes/pedestal/effigy_pedestal_radiant.vmdl"
-    
+
 
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
@@ -485,7 +485,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -565,7 +565,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -646,7 +646,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -727,7 +727,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -809,7 +809,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -891,7 +891,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -952,7 +952,7 @@
 
     "precache"
     {
-        
+
         "particle"  "particles/base_attacks/ranged_tower_good.vpcf"
     }
 
@@ -974,12 +974,12 @@
     "ATtackRate"    "1.8"
     "AttackRange"   "700"
     "AttackAnimationPoint"  "0.5"
-    "AttackAcquisitionRange" "700" 
-    "ProjectileModel"            "particles/base_attacks/ranged_tower_good.vpcf" 
+    "AttackAcquisitionRange" "700"
+    "ProjectileModel"            "particles/base_attacks/ranged_tower_good.vpcf"
     "ProjectileSpeed"            "400"
 
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -1021,7 +1021,7 @@
 
 
 
- "race_2_melee_tier_1_footman" 
+ "race_2_melee_tier_1_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/dragon_knight/dragon_knight.vmdl"
@@ -1036,17 +1036,17 @@
         //"Model" "models/heroes/dragon_knight/dragon_knight.vmdl"
         //"GameSoundsFile"    "soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts"
     }
-    
+
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "extra_armor"
-    "Ability6"  "has_population_1"  
+    "Ability6"  "has_population_1"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -1061,16 +1061,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "12"     
+    "BountyXP"                    "12"
     "BountyGoldMin"                         "2"
     "BountyGoldMax"                         "2"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1078,13 +1078,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "300"
@@ -1096,7 +1096,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -1113,7 +1113,7 @@
             "Wearable3" { "ItemDef" "65" }
             "Wearable4" { "ItemDef" "66" }
             "Wearable5" { "ItemDef" "67" }
-            "Wearable6" { "ItemDef" "68" }    
+            "Wearable6" { "ItemDef" "68" }
         }
     }
 
@@ -1122,7 +1122,7 @@
 
 
 
- "race_2_melee_tier_2_footman" 
+ "race_2_melee_tier_2_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/dragon_knight/dragon_knight.vmdl"
@@ -1137,17 +1137,17 @@
         //"Model" "models/heroes/dragon_knight/dragon_knight.vmdl"
         //"GameSoundsFile"    "soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts"
     }
-    
+
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "extra_armor"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "4"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -1162,16 +1162,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "18"     
+    "BountyXP"                    "18"
     "BountyGoldMin"                         "2"
     "BountyGoldMax"                         "2"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1179,13 +1179,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "600"
@@ -1197,7 +1197,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -1214,7 +1214,7 @@
             "Wearable3" { "ItemDef" "4115" }
             "Wearable4" { "ItemDef" "4116" }
             "Wearable5" { "ItemDef" "4117" }
-            "Wearable6" { "ItemDef" "4154" }    
+            "Wearable6" { "ItemDef" "4154" }
         }
     }
 
@@ -1234,20 +1234,20 @@
     "precache"
     {
         "particle"  "particles/units/heroes/hero_techies/techies_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "mortar_attack"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "1"
     "MagicalResistance"                     "5"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -1258,22 +1258,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "550"
-    "ProjectileModel"            "particles/units/heroes/hero_techies/techies_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_techies/techies_base_attack.vpcf"
     "ProjectileSpeed"            "500"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "22"     
+    "BountyXP"                    "22"
     "BountyGoldMin"                         "3"
     "BountyGoldMax"                         "3"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1281,13 +1281,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "280"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "250"
@@ -1299,7 +1299,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -1316,7 +1316,7 @@
             "Wearable3" { "ItemDef" "487" }
             "Wearable4" { "ItemDef" "490" }
             "Wearable5" { "ItemDef" "491" }
-            "Wearable6" { "ItemDef" "492" }    
+            "Wearable6" { "ItemDef" "492" }
         }
     }
 
@@ -1337,20 +1337,20 @@
     "precache"
     {
         "particle"  "particles/units/heroes/hero_techies/techies_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "mortar_attack"
-    "Ability6"  "has_population_3"  
+    "Ability6"  "has_population_3"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -1361,22 +1361,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "550"
-    "ProjectileModel"            "particles/units/heroes/hero_techies/techies_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_techies/techies_base_attack.vpcf"
     "ProjectileSpeed"            "500"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "33"     
+    "BountyXP"                    "33"
     "BountyGoldMin"                         "6"
     "BountyGoldMax"                         "6"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1384,13 +1384,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "280"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "500"
@@ -1402,7 +1402,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -1419,13 +1419,13 @@
             "Wearable3" { "ItemDef" "487" }
             "Wearable4" { "ItemDef" "490" }
             "Wearable5" { "ItemDef" "491" }
-            "Wearable6" { "ItemDef" "492" }    
+            "Wearable6" { "ItemDef" "492" }
         }
     }
 
  }
 
-  "race_2_special_tier_1_healer" 
+  "race_2_special_tier_1_healer"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/keeper_of_the_light/keeper_of_the_light.vmdl"
@@ -1437,22 +1437,22 @@
 
     "precache"
     {
- 
+
         "particle"  "particles/base_attacks/fountain_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_2_healer_heal"
-    "Ability6"  "has_population_3"  
+    "Ability6"  "has_population_3"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "0"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -1463,22 +1463,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "450"
-    "ProjectileModel"            "particles/base_attacks/fountain_attack.vpcf" 
+    "ProjectileModel"            "particles/base_attacks/fountain_attack.vpcf"
     "ProjectileSpeed"            "400"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "28"     
+    "BountyXP"                    "28"
     "BountyGoldMin"                         "5"
     "BountyGoldMax"                         "5"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1486,13 +1486,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "250"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "200"
@@ -1504,7 +1504,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1200"
     "VisionNighttimeRange"          "800"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -1528,7 +1528,7 @@
 
 
 
-  "race_2_special_tier_2_healer" 
+  "race_2_special_tier_2_healer"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/keeper_of_the_light/keeper_of_the_light.vmdl"
@@ -1540,22 +1540,22 @@
 
     "precache"
     {
- 
+
         "particle"  "particles/base_attacks/fountain_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_2_healer_heal"
-    "Ability6"  "has_population_5"  
+    "Ability6"  "has_population_5"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "0"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -1566,22 +1566,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "450"
-    "ProjectileModel"            "particles/base_attacks/fountain_attack.vpcf" 
+    "ProjectileModel"            "particles/base_attacks/fountain_attack.vpcf"
     "ProjectileSpeed"            "400"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "42"     
+    "BountyXP"                    "42"
     "BountyGoldMin"                         "12"
     "BountyGoldMax"                         "12"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1589,13 +1589,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "250"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "400"
@@ -1607,7 +1607,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1200"
     "VisionNighttimeRange"          "800"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -1640,7 +1640,7 @@
 
 
 
- "race_3_melee_tier_1_footman" 
+ "race_3_melee_tier_1_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/axe/axe.vmdl"
@@ -1656,13 +1656,13 @@
     "AbilityLayout" "4"
     //"Ability1"  ""
     "Ability1"  "extra_damage_melee"
-    "Ability6"  "has_population_1"  
+    "Ability6"  "has_population_1"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -1677,16 +1677,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "12"     
+    "BountyXP"                    "12"
     "BountyGoldMin"                         "2"
     "BountyGoldMax"                         "2"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1694,13 +1694,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "300"
@@ -1712,7 +1712,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -1748,46 +1748,46 @@
     "precache"
     {
         "particle"  "particles/units/heroes/hero_lion/lion_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "return_damage"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "1"
     "MagicalResistance"                     "5"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
     "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"
     "AttackDamageMin"                       "45"
-    "AttackDamageMax"                       "51" 
+    "AttackDamageMax"                       "51"
     "AttackRate"                            "1.6"
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "550"
-    "ProjectileModel"            "particles/units/heroes/hero_lion/lion_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_lion/lion_base_attack.vpcf"
     "ProjectileSpeed"            "550"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "22"     
+    "BountyXP"                    "22"
     "BountyGoldMin"                         "3"
     "BountyGoldMax"                         "3"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1795,13 +1795,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "280"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "250"
@@ -1813,7 +1813,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -1830,13 +1830,13 @@
             "Wearable3" { "ItemDef" "368" }
             "Wearable4" { "ItemDef" "369" }
 
-            
+
         }
     }
 
  }
 
-  "race_3_special_tier_1_shaman" 
+  "race_3_special_tier_1_shaman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/blood_seeker/blood_seeker.vmdl"
@@ -1850,20 +1850,20 @@
     {
 
         "particle"  "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_3_shaman_buff"
-    "Ability6"  "has_population_3"  
+    "Ability6"  "has_population_3"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "0"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -1874,22 +1874,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "450"
-    "ProjectileModel"            "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf"
     "ProjectileSpeed"            "700"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "28"     
+    "BountyXP"                    "28"
     "BountyGoldMin"                         "5"
     "BountyGoldMax"                         "5"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1897,13 +1897,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "250"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "200"
@@ -1915,7 +1915,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "750"
     "VisionNighttimeRange"          "650"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -1932,7 +1932,7 @@
             "Wearable3" { "ItemDef" "73" }
             "Wearable4" { "ItemDef" "74" }
             "Wearable5" { "ItemDef" "257" }
-                        
+
         }
     }
 
@@ -1942,7 +1942,7 @@
 
 
 
- "race_3_melee_tier_2_footman" 
+ "race_3_melee_tier_2_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/axe/axe.vmdl"
@@ -1958,13 +1958,13 @@
     "AbilityLayout" "4"
     //"Ability1"  ""
     "Ability1"  "extra_damage_melee"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "4"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -1979,16 +1979,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "18"     
+    "BountyXP"                    "18"
     "BountyGoldMin"                         "3"
     "BountyGoldMax"                         "3"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -1996,13 +1996,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "600"
@@ -2014,7 +2014,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -2050,46 +2050,46 @@
     "precache"
     {
         "particle"  "particles/units/heroes/hero_lion/lion_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "return_damage"
-    "Ability6"  "has_population_3"  
+    "Ability6"  "has_population_3"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
     "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"
     "AttackDamageMin"                       "90"
-    "AttackDamageMax"                       "102" 
+    "AttackDamageMax"                       "102"
     "AttackRate"                            "1.6"
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "550"
-    "ProjectileModel"            "particles/units/heroes/hero_lion/lion_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_lion/lion_base_attack.vpcf"
     "ProjectileSpeed"            "550"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "33"     
+    "BountyXP"                    "33"
     "BountyGoldMin"                         "6"
     "BountyGoldMax"                         "6"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -2097,13 +2097,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "280"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "500"
@@ -2115,7 +2115,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -2132,13 +2132,13 @@
             "Wearable3" { "ItemDef" "4546" }
             "Wearable4" { "ItemDef" "5459" }
 
-            
+
         }
     }
 
  }
 
-  "race_3_special_tier_2_shaman" 
+  "race_3_special_tier_2_shaman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/blood_seeker/blood_seeker.vmdl"
@@ -2152,20 +2152,20 @@
     {
 
         "particle"  "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_3_shaman_buff"
-    "Ability6"  "has_population_5"  
+    "Ability6"  "has_population_5"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "1"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -2176,22 +2176,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "450"
-    "ProjectileModel"            "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf"
     "ProjectileSpeed"            "700"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "42"     
+    "BountyXP"                    "42"
     "BountyGoldMin"                         "12"
     "BountyGoldMax"                         "12"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -2199,13 +2199,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "250"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "400"
@@ -2217,7 +2217,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "750"
     "VisionNighttimeRange"          "650"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -2234,7 +2234,7 @@
             "Wearable3" { "ItemDef" "5510" }
             "Wearable4" { "ItemDef" "5511" }
             "Wearable5" { "ItemDef" "5505" }
-                        
+
         }
     }
 
@@ -2251,7 +2251,7 @@
   {
     //General
     "BaseClass" "npc_dota_creature"
-    
+
     //"Model" "models/buildingplacer/buildingplacer.vmdl"
     //"Model" "models/heroes/shadow_fiend/pedestal_sf.vmdl" //replace with a proper model
     //"Model" "models/props_structures/good_barracks_melee002.vmdl"
@@ -2270,7 +2270,7 @@
         //"model" "models/heroes/shadow_fiend/pedestal_sf.vmdl"
         "particle"  "particles/econ/courier/courier_baekho/courier_baekho_ambient.vpcf"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -2309,7 +2309,7 @@
     "StatusHealthRegen"                     "0"
     "StatusMana"                            "0"
     "StatusManaRegen"                       "0"
-   
+
     // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -2442,7 +2442,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -2524,7 +2524,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -2605,7 +2605,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -2687,7 +2687,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -2772,7 +2772,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -2855,7 +2855,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -2898,10 +2898,10 @@
   {
     //General
     "BaseClass" "npc_dota_creature"
-    
+
     "Model" "models/sign_tower/techies_sign_tower.vmdl"
     //"Model" "models/heroes/pedestal/effigy_pedestal_radiant.vmdl" //replace with a proper model
-    
+
     "SoundSet" "Tower.Fire"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
     "ModelScale"     "1.5"
@@ -2915,7 +2915,7 @@
         //"Model" "models/sign_tower/techies_sign_tower.vmdl"
 
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -2953,7 +2953,7 @@
     "StatusHealthRegen"                     "0"
     "StatusMana"                            "0"
     "StatusManaRegen"                       "0"
-   
+
     // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -2989,7 +2989,7 @@
 
     "precache"
     {
-        
+
         "particle"  "particles/base_attacks/ranged_tower_bad.vpcf"
     }
 
@@ -3011,12 +3011,12 @@
     "ATtackRate"    "1.8"
     "AttackRange"   "700"
     "AttackAnimationPoint"  "0.5"
-    "AttackAcquisitionRange" "700" 
-    "ProjectileModel"            "particles/base_attacks/ranged_tower_bad.vpcf" 
+    "AttackAcquisitionRange" "700"
+    "ProjectileModel"            "particles/base_attacks/ranged_tower_bad.vpcf"
     "ProjectileSpeed"            "400"
 
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -3069,11 +3069,11 @@
     "Level" "100"
     "HealthbarOffset"   "300"
     "ConsideredHero"        "1"
-    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
     "ProjectileSpeed"            "1000"
 
     "precache"
-    { 
+    {
       "particle"  "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
 
 
@@ -3082,7 +3082,7 @@
 
     //Abilities
     "AbilityLayout" "4"
-    
+
     "Ability1"  "skeleton_king_vampiric_aura"
     "Ability6"  "is_king"
 
@@ -3108,7 +3108,7 @@
     //----------------------------------------------------------------
     "ArmorPhysical"                         "50"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -3119,13 +3119,13 @@
     "AttackAnimationPoint"                  "0.5"
     "AttackAcquisitionRange"                "500"
     "AttackRange"                           "400"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "100"
     "CollisionSize"                         "41"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
         // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -3144,8 +3144,8 @@
             "Wearable5" { "ItemDef" "6096" }
             "Wearable6" { "ItemDef" "6097"}
             "Wearable7" { "ItemDef"  "6506"}
-            
-            
+
+
         }
     }
  }
@@ -3163,11 +3163,11 @@
     "Level" "100"
     "HealthbarOffset"   "300"
     "ConsideredHero"        "1"
-    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
     "ProjectileSpeed"            "1000"
 
     "precache"
-    { 
+    {
       "particle"  "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
 
 
@@ -3176,7 +3176,7 @@
 
     //Abilities
     "AbilityLayout" "4"
-    
+
     "Ability1"  "necrolyte_heartstopper_aura"
     "Ability6"  "is_king"
 
@@ -3202,7 +3202,7 @@
     //----------------------------------------------------------------
     "ArmorPhysical"                         "50"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -3213,13 +3213,13 @@
     "AttackAnimationPoint"                  "0.5"
     "AttackAcquisitionRange"                "500"
     "AttackRange"                           "400"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "100"
     "CollisionSize"                         "41"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
         // Vision
     //----------------------------------------------------------------
@@ -3237,8 +3237,8 @@
             "Wearable3" { "ItemDef" "5694" }
             "Wearable4" { "ItemDef" "5561" }
             "Wearable5" { "ItemDef" "5804" }
-            
-            
+
+
         }
     }
 
@@ -3266,7 +3266,7 @@
 
     "precache"
     {
-        
+
         "particle"  "particles/units/heroes/hero_pugna/pugna_life_drain_beam.vpcf"
     }
 
@@ -3288,12 +3288,12 @@
     "AttackRate"    "0.3"
     "AttackRange"   "700"
     "AttackAnimationPoint"  "0.5"
-    "AttackAcquisitionRange" "700" 
-    "ProjectileModel"            "particles/units/heroes/hero_pugna/pugna_life_drain_beam.vpcf" 
+    "AttackAcquisitionRange" "700"
+    "ProjectileModel"            "particles/units/heroes/hero_pugna/pugna_life_drain_beam.vpcf"
     "ProjectileSpeed"            "500"
 
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -3344,10 +3344,10 @@
   {
     //General
     "BaseClass" "npc_dota_creature"
-    
+
     "Model" "models/sign_tower/techies_sign_tower.vmdl"
     //"Model" "models/heroes/pedestal/effigy_pedestal_radiant.vmdl" //replace with a proper model
-    
+
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
     "ModelScale"     "1.5"
@@ -3361,7 +3361,7 @@
         //"Model" "models/sign_tower/techies_sign_tower.vmdl"
 
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -3399,7 +3399,7 @@
     "StatusHealthRegen"                     "0"
     "StatusMana"                            "0"
     "StatusManaRegen"                       "0"
-   
+
     // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -3425,8 +3425,8 @@
   "race_6_building_placer"
   {
     //General
-    "BaseClass" "npc_dota_creature" 
-    
+    "BaseClass" "npc_dota_creature"
+
     "Model" "models/sign/techies_sign_barracks.vmdl"
     //"Model" "models/heroes/pedestal/effigy_pedestal_frosty_dire.vmdl"
     //"Model" "models/props_structures/good_barracks_melee002.vmdl"
@@ -3442,7 +3442,7 @@
         //"Model" "models/sign/techies_sign_barracks.vmdl"
         "particle"  "particles/econ/courier/courier_baekho/courier_baekho_ambient.vpcf"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -3510,11 +3510,11 @@
 
     "precache"
     {
-        
+
             //"Model" "models/heroes/pedestal/effigy_pedestal_frosty_dire.vmdl"
 
     }
-    
+
 
 
     "AttackAnimationPoint"          "0.5"
@@ -3586,11 +3586,11 @@
 
     "precache"
     {
-        
+
             //"Model" "models/props_structures/dire_barracks_melee001.vmdl"
 
     }
-    
+
 
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
@@ -3623,7 +3623,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -3669,11 +3669,11 @@
 
     "precache"
     {
-        
+
             //"Model" "models/props_structures/dire_barracks_melee001.vmdl"
 
     }
-    
+
 
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
@@ -3705,7 +3705,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -3760,7 +3760,7 @@
 
     }
 
-    
+
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
     "ModelScale"     "0.6"
@@ -3792,7 +3792,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -3846,7 +3846,7 @@
 
     }
 
-    
+
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
     "ModelScale"     "0.8"
@@ -3877,7 +3877,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -3931,7 +3931,7 @@
 
 
     }
-    
+
 
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
@@ -3964,7 +3964,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -4015,7 +4015,7 @@
 
 
     }
-    
+
 
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
@@ -4047,7 +4047,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -4086,7 +4086,7 @@
 
 
 
- "race_6_melee_tier_1_footman" 
+ "race_6_melee_tier_1_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/undying/undying.vmdl"
@@ -4098,21 +4098,21 @@
 
     "precache"
     {
-        
+
         //"Model" "models/heroes/undying/undying.vmdl"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "attackspeed_slow"
-    "Ability6"  "has_population_1"  
+    "Ability6"  "has_population_1"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -4127,16 +4127,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "12"     
+    "BountyXP"                    "12"
     "BountyGoldMin"                         "2"
     "BountyGoldMax"                         "2"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -4144,13 +4144,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "300"
@@ -4162,7 +4162,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -4200,20 +4200,20 @@
         //"Model" "models/heroes/viper/viper.vmdl"
 
         "particle"  "particles/units/heroes/hero_viper/viper_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "extra_movespeed"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "1"
     "MagicalResistance"                     "5"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -4224,22 +4224,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "500"
-    "ProjectileModel"            "particles/units/heroes/hero_viper/viper_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_viper/viper_base_attack.vpcf"
     "ProjectileSpeed"            "800"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "22"     
-    "BountyGoldMin"                         "3"   
+    "BountyXP"                    "22"
+    "BountyGoldMin"                         "3"
     "BountyGoldMax"                         "3"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -4247,13 +4247,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "280"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "250"
@@ -4265,7 +4265,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -4273,11 +4273,11 @@
     "CombatClassDefend"                     "DOTA_COMBAT_CLASS_DEFEND_STRONG"
     "UnitRelationShipClass"         "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 
-  
+
 
  }
 
-  "race_6_special_tier_1_succubus" 
+  "race_6_special_tier_1_succubus"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/queenofpain/queenofpain.vmdl"
@@ -4291,20 +4291,20 @@
     {
         //"Model" "models/heroes/blood_seeker/queenofpain.vmdl"
         "particle"  "particles/units/heroes/hero_bane/bane_projectile.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_6_succubus_debuff"
-    "Ability6"  "has_population_3"  
+    "Ability6"  "has_population_3"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "0"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -4321,16 +4321,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "28"    
+    "BountyXP"                    "28"
     "BountyGoldMin"                         "5"
     "BountyGoldMax"                         "5"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -4338,13 +4338,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "250"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "200"
@@ -4356,7 +4356,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "750"
     "VisionNighttimeRange"          "650"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -4373,7 +4373,7 @@
             "Wearable2" { "ItemDef" "83" }
             "Wearable4" { "ItemDef" "84" }
 
-                        
+
         }
     }
 
@@ -4385,7 +4385,7 @@
 
 
 
- "race_6_melee_tier_2_footman" 
+ "race_6_melee_tier_2_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/undying/undying.vmdl"
@@ -4397,21 +4397,21 @@
 
     "precache"
     {
-        
+
         //"Model" "models/heroes/undying/undying.vmdl"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "attackspeed_slow"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "4"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -4426,16 +4426,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "18"     
+    "BountyXP"                    "18"
     "BountyGoldMin"                         "3"
     "BountyGoldMax"                         "3"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -4443,13 +4443,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "600"
@@ -4461,7 +4461,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -4499,20 +4499,20 @@
         //"Model" "models/heroes/viper/viper.vmdl"
 
         "particle"  "particles/units/heroes/hero_viper/viper_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "extra_movespeed"
-    "Ability6"  "has_population_3"  
+    "Ability6"  "has_population_3"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -4523,22 +4523,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "500"
-    "ProjectileModel"            "particles/units/heroes/hero_viper/viper_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_viper/viper_base_attack.vpcf"
     "ProjectileSpeed"            "800"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "33"     
-    "BountyGoldMin"                         "6"   
+    "BountyXP"                    "33"
+    "BountyGoldMin"                         "6"
     "BountyGoldMax"                         "6"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -4546,13 +4546,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "280"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "500"
@@ -4564,7 +4564,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -4572,11 +4572,11 @@
     "CombatClassDefend"                     "DOTA_COMBAT_CLASS_DEFEND_STRONG"
     "UnitRelationShipClass"         "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 
-  
+
 
  }
 
-  "race_6_special_tier_2_succubus" 
+  "race_6_special_tier_2_succubus"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/queenofpain/queenofpain.vmdl"
@@ -4590,20 +4590,20 @@
     {
         //"Model" "models/heroes/blood_seeker/queenofpain.vmdl"
         "particle"  "particles/units/heroes/hero_bane/bane_projectile.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_6_succubus_debuff"
-    "Ability6"  "has_population_5"  
+    "Ability6"  "has_population_5"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "1"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -4620,16 +4620,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "42"    
+    "BountyXP"                    "42"
     "BountyGoldMin"                         "12"
     "BountyGoldMax"                         "12"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -4637,13 +4637,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "250"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "400"
@@ -4655,7 +4655,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "750"
     "VisionNighttimeRange"          "650"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -4672,7 +4672,7 @@
             "Wearable2" { "ItemDef" "4542" }
             "Wearable4" { "ItemDef" "4543" }
 
-                        
+
         }
     }
 
@@ -4693,13 +4693,13 @@
     "Level" "100"
     "HealthbarOffset"   "500"
     "ConsideredHero"        "1"
-    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
     "ProjectileSpeed"            "1000"
 
     "precache"
-    { 
-        
- 
+    {
+
+
         "particle"  "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
         "particle"   "particles/units/heroes/hero_sven/sven_spell_great_cleave.vpcf"
 
@@ -4707,7 +4707,7 @@
 
     //Abilities
     "AbilityLayout" "4"
-    
+
     "Ability1"  "sven_great_cleave"
     "Ability6"  "is_king"
 
@@ -4733,7 +4733,7 @@
     //----------------------------------------------------------------
     "ArmorPhysical"                         "50"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -4744,13 +4744,13 @@
     "AttackAnimationPoint"                  "0.5"
     "AttackAcquisitionRange"                "500"
     "AttackRange"                           "500"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "200"
     "CollisionSize"                         "100"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
         // Vision
     //----------------------------------------------------------------
@@ -4769,8 +4769,8 @@
             "Wearable4" { "ItemDef" "5611" }
 
 
-            
-            
+
+
         }
     }
 
@@ -4781,7 +4781,7 @@
   {
     //General
     "BaseClass" "npc_dota_creature"
-    
+
     "Model" "models/sign/techies_sign_barracks.vmdl"
     //"Model" "models/props_structures/dire_fountain002.vmdl"
     //"Model" "models/props_structures/good_barracks_melee002.vmdl"
@@ -4795,7 +4795,7 @@
     {
         "particle"  "particles/econ/courier/courier_baekho/courier_baekho_ambient.vpcf"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -4867,10 +4867,10 @@
 
     "precache"
     {
-        
-        //"model" "models/heroes/pedestal/effigy_pedestal_radiant.vmdl"    
+
+        //"model" "models/heroes/pedestal/effigy_pedestal_radiant.vmdl"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -4949,7 +4949,7 @@
 
 
     "precache"
-    { 
+    {
     }
 
     //Abilities
@@ -4971,7 +4971,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -5032,7 +5032,7 @@
 
 
     "precache"
-    { 
+    {
     }
 
     //Abilities
@@ -5053,7 +5053,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -5112,7 +5112,7 @@
 
     "precache"
     {
-       
+
     }
 
     //Abilities
@@ -5134,7 +5134,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -5193,7 +5193,7 @@
 
     "precache"
     {
-       
+
     }
 
     //Abilities
@@ -5214,7 +5214,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -5294,7 +5294,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -5372,7 +5372,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -5417,10 +5417,10 @@
   {
     //General
     "BaseClass" "npc_dota_creature"
-    
+
     "Model" "models/sign_tower/techies_sign_tower.vmdl"
     //"Model" "models/heroes/pedestal/effigy_pedestal_radiant.vmdl" //replace with a proper model
-    
+
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
     "ModelScale"     "1.5"
@@ -5434,7 +5434,7 @@
         //"Model" "models/sign_tower/techies_sign_tower.vmdl"
 
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -5473,7 +5473,7 @@
     "StatusHealthRegen"                     "0"
     "StatusMana"                            "0"
     "StatusManaRegen"                       "0"
-   
+
     // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -5507,7 +5507,7 @@
 
     "precache"
     {
-        
+
         "particle"  "particles/econ/items/visage/immortal_familiar/visage_immortal_ti5/visage_familiar_base_attack_ti5.vpcf"
     }
 
@@ -5529,12 +5529,12 @@
     "AttackRate"    "1"
     "AttackRange"   "700"
     "AttackAnimationPoint"  "0.5"
-    "AttackAcquisitionRange" "700" 
-    "ProjectileModel"            "particles/econ/items/visage/immortal_familiar/visage_immortal_ti5/visage_familiar_base_attack_ti5.vpcf" 
+    "AttackAcquisitionRange" "700"
+    "ProjectileModel"            "particles/econ/items/visage/immortal_familiar/visage_immortal_ti5/visage_familiar_base_attack_ti5.vpcf"
     "ProjectileSpeed"            "600"
 
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -5577,7 +5577,7 @@
 
 
 
- "race_7_melee_tier_1_footman" 
+ "race_7_melee_tier_1_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/slark/slark.vmdl"
@@ -5591,20 +5591,20 @@
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "attackdamage_reduction"
-    "Ability6"  "has_population_1"  
+    "Ability6"  "has_population_1"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
     "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"
     "AttackDamageMin"                       "15"
     "AttackDamageMax"                       "15"
-    "AttackRate"                            "1"   
+    "AttackRate"                            "1"
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "100"
@@ -5612,16 +5612,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "12"     
+    "BountyXP"                    "12"
     "BountyGoldMin"                         "2"
     "BountyGoldMax"                         "2"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -5629,13 +5629,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
-    "MovementTurnRate"                      "0.6" 
-   
+    "MovementTurnRate"                      "0.6"
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "300"
@@ -5647,7 +5647,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -5664,7 +5664,7 @@
             "Wearable3" { "ItemDef" "354" }
             "Wearable4" { "ItemDef" "355" }
             "Wearable5" { "ItemDef" "356" }
- 
+
         }
     }
 
@@ -5684,20 +5684,20 @@
     "precache"
     {
         "particle"  "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "extra_range"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "1"
     "MagicalResistance"                     "5"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -5708,29 +5708,29 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "500"
-    "ProjectileModel"            "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf"
     "ProjectileSpeed"            "1200"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "22"     
+    "BountyXP"                    "22"
     "BountyGoldMin"                         "3"
     "BountyGoldMax"                         "3"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
-   
+    "FormationRank"                         "0"
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "280"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "250"
@@ -5742,7 +5742,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -5765,7 +5765,7 @@
 
  }
 
-  "race_7_special_tier_1_morph" 
+  "race_7_special_tier_1_morph"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/morphling/morphling.vmdl"
@@ -5777,22 +5777,22 @@
 
     "precache"
     {
-        
+
         "particle"  "particles/units/heroes/hero_morphling/morphling_base_attack.vpcf"
         "particle"  "particles/units/heroes/hero_morphling.pcf"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_7_morph_drown"
-    "Ability6"  "has_population_3"  
+    "Ability6"  "has_population_3"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "0"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -5803,22 +5803,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "450"
-    "ProjectileModel"            "particles/units/heroes/hero_morphling/morphling_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_morphling/morphling_base_attack.vpcf"
     "ProjectileSpeed"            "750"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "28"     
+    "BountyXP"                    "28"
     "BountyGoldMin"                         "5"
     "BountyGoldMax"                         "5"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -5826,13 +5826,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "250"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "200"
@@ -5844,7 +5844,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "750"
     "VisionNighttimeRange"          "650"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -5868,7 +5868,7 @@
 
 
 
- "race_7_melee_tier_2_footman" 
+ "race_7_melee_tier_2_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/slark/slark.vmdl"
@@ -5882,20 +5882,20 @@
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "attackdamage_reduction"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "4"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
     "AttackDamageType"                      "DAMAGE_TYPE_ArmorPhysical"
     "AttackDamageMin"                       "30"
     "AttackDamageMax"                       "30"
-    "AttackRate"                            "1"   
+    "AttackRate"                            "1"
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "100"
@@ -5903,16 +5903,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "18"     
+    "BountyXP"                    "18"
     "BountyGoldMin"                         "3"
     "BountyGoldMax"                         "3"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -5920,13 +5920,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
-    "MovementTurnRate"                      "0.6" 
-   
+    "MovementTurnRate"                      "0.6"
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "600"
@@ -5938,7 +5938,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -5955,7 +5955,7 @@
             "Wearable3" { "ItemDef" "5263" }
             "Wearable4" { "ItemDef" "5264" }
             "Wearable5" { "ItemDef" "5265" }
- 
+
         }
     }
 
@@ -5975,20 +5975,20 @@
     "precache"
     {
         "particle"  "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "extra_range"
-    "Ability6"  "has_population_3"  
+    "Ability6"  "has_population_3"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -5999,29 +5999,29 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "500"
-    "ProjectileModel"            "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_sniper/sniper_base_attack.vpcf"
     "ProjectileSpeed"            "1200"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "33"     
+    "BountyXP"                    "33"
     "BountyGoldMin"                         "6"
     "BountyGoldMax"                         "6"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
-   
+    "FormationRank"                         "0"
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "280"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "500"
@@ -6033,7 +6033,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -6056,7 +6056,7 @@
 
  }
 
-  "race_7_special_tier_2_morph" 
+  "race_7_special_tier_2_morph"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/morphling/morphling.vmdl"
@@ -6068,22 +6068,22 @@
 
     "precache"
     {
-        
+
         "particle"  "particles/units/heroes/hero_morphling/morphling_base_attack.vpcf"
         "particle"  "particles/units/heroes/hero_morphling.pcf"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_7_morph_drown"
-    "Ability6"  "has_population_5"  
+    "Ability6"  "has_population_5"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "1"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -6094,22 +6094,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "450"
-    "ProjectileModel"            "particles/units/heroes/hero_morphling/morphling_base_attack.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_morphling/morphling_base_attack.vpcf"
     "ProjectileSpeed"            "750"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "42"     
+    "BountyXP"                    "42"
     "BountyGoldMin"                         "12"
     "BountyGoldMax"                         "12"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -6117,13 +6117,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "250"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "400"
@@ -6135,7 +6135,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "750"
     "VisionNighttimeRange"          "650"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -6171,21 +6171,21 @@
     "Level" "100"
     "HealthbarOffset"   "300"
     "ConsideredHero"        "1"
-    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
     "ProjectileSpeed"            "1000"
 
     "precache"
-    { 
+    {
         "particle"  "particles/units/heroes/hero_phoenix/phoenix_base_attack_explosion_ember.vpcf"
 
-        
+
 
 
     }
 
     //Abilities
     "AbilityLayout" "4"
-    
+
     "Ability1"  "beastmaster_inner_beast"
     "Ability6"  "is_king"
 
@@ -6211,7 +6211,7 @@
     //----------------------------------------------------------------
     "ArmorPhysical"                         "50"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -6222,13 +6222,13 @@
     "AttackAnimationPoint"                  "0.5"
     "AttackAcquisitionRange"                "500"
     "AttackRange"                           "400"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "100"
     "CollisionSize"                         "41"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
         // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -6244,8 +6244,8 @@
 
 
 
-            
-            
+
+
         }
     }
 
@@ -6256,7 +6256,7 @@
   {
     //General
     "BaseClass" "npc_dota_creature"
-    
+
     "Model" "models/sign/techies_sign_barracks.vmdl"
     //"Model" "models/props_structures/dire_fountain002.vmdl"
     //"Model" "models/props_structures/good_barracks_melee002.vmdl"
@@ -6270,7 +6270,7 @@
     {
         "particle"  "particles/econ/courier/courier_baekho/courier_baekho_ambient.vpcf"
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -6333,10 +6333,10 @@
   {
     //General
     "BaseClass" "npc_dota_creature"
-    
+
     "Model" "models/sign_tower/techies_sign_tower.vmdl"
     //"Model" "models/heroes/pedestal/effigy_pedestal_radiant.vmdl" //replace with a proper model
-    
+
     "SoundSet" "Creep_Good_Melee"
     "GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
     "ModelScale"     "1.5"
@@ -6350,7 +6350,7 @@
         //"Model" "models/sign_tower/techies_sign_tower.vmdl"
 
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
@@ -6388,7 +6388,7 @@
     "StatusHealthRegen"                     "0"
     "StatusMana"                            "0"
     "StatusManaRegen"                       "0"
-   
+
     // Vision
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "1600"
@@ -6425,7 +6425,7 @@
 
     "precache"
     {
-        
+
         "particle"  "particles/econ/items/necrolyte/necronub_base_attack/necrolyte_base_attack_ka.vpcf"
     }
     //Abilities
@@ -6446,12 +6446,12 @@
     "AttackRate"    "1.8"
     "AttackRange"   "700"
     "AttackAnimationPoint"  "0.5"
-    "AttackAcquisitionRange" "700" 
-    "ProjectileModel"            "particles/econ/items/necrolyte/necronub_base_attack/necrolyte_base_attack_ka.vpcf" 
+    "AttackAcquisitionRange" "700"
+    "ProjectileModel"            "particles/econ/items/necrolyte/necronub_base_attack/necrolyte_base_attack_ka.vpcf"
     "ProjectileSpeed"            "700"
 
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -6508,7 +6508,7 @@
 
     "precache"
     {
-   
+
     }
 
     //Abilities
@@ -6612,7 +6612,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -6650,7 +6650,7 @@
     }
 
 
-    
+
     "race_8_melee_building_2"
      {
     //General
@@ -6692,7 +6692,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "50"
     "BountyGoldMax"                         "50"
@@ -6774,7 +6774,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -6855,7 +6855,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "100"
     "BountyGoldMax"                         "100"
@@ -6937,7 +6937,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -7016,7 +7016,7 @@
     "AttackDamageMin"                       "0"
     "AttackDamageMax"           "0"
 
-    // Bounty 
+    // Bounty
     //----------------------------------------------------------------
     "BountyGoldMin"                         "150"
     "BountyGoldMax"                         "150"
@@ -7055,7 +7055,7 @@
 
 
 
- "race_8_melee_tier_1_footman" 
+ "race_8_melee_tier_1_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/items/lycan/wolves/alpha_summon_01/alpha_summon_01.vmdl"
@@ -7070,13 +7070,13 @@
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "extra_vision"
-    "Ability6"  "has_population_1"  
+    "Ability6"  "has_population_1"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -7091,16 +7091,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "12"     
+    "BountyXP"                    "12"
     "BountyGoldMin"                         "2"
     "BountyGoldMax"                         "2"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -7108,13 +7108,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "300"
@@ -7126,7 +7126,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -7161,20 +7161,20 @@
     "precache"
     {
         "particle"  "particles/units/heroes/hero_drow/drow_frost_arrow.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "movespeed_slow"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "1"
     "MagicalResistance"                     "5"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -7185,22 +7185,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "550"
-    "ProjectileModel"            "particles/units/heroes/hero_drow/drow_frost_arrow.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_drow/drow_frost_arrow.vpcf"
     "ProjectileSpeed"            "1100"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "22"     
+    "BountyXP"                    "22"
     "BountyGoldMin"                         "3"
     "BountyGoldMax"                         "3"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -7208,13 +7208,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "250"
@@ -7226,7 +7226,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -7243,13 +7243,13 @@
             "Wearable3" { "ItemDef" "23" }
             "Wearable4" { "ItemDef" "25" }
             "Wearable5" { "ItemDef" "6041" }
-            
+
         }
     }
 
  }
 
-  "race_8_special_tier_1_tree" 
+  "race_8_special_tier_1_tree"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/treant_protector/treant_protector.vmdl"
@@ -7262,21 +7262,21 @@
     "precache"
     {
 
-       
-        
+
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_8_tree_stoner"
-    "Ability6"  "has_population_3"  
+    "Ability6"  "has_population_3"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "0"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -7293,16 +7293,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "28"     
+    "BountyXP"                    "28"
     "BountyGoldMin"                         "5"
     "BountyGoldMax"                         "5"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -7310,13 +7310,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "200"
@@ -7328,7 +7328,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "750"
     "VisionNighttimeRange"          "650"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -7345,7 +7345,7 @@
             "Wearable3" { "ItemDef" "229" }
             "Wearable4" { "ItemDef" "230" }
 
-                        
+
         }
     }
 
@@ -7354,7 +7354,7 @@
 
 
 
- "race_8_melee_tier_2_footman" 
+ "race_8_melee_tier_2_footman"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/items/lycan/wolves/ambry_summon/ambry_summon.vmdl"
@@ -7369,13 +7369,13 @@
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "extra_vision"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "4"
     "MagicalResistance"                     "0"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_MELEE_ATTACK"
@@ -7390,16 +7390,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "18"     
+    "BountyXP"                    "18"
     "BountyGoldMin"                         "3"
     "BountyGoldMax"                         "3"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -7407,13 +7407,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "600"
@@ -7425,7 +7425,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "850"
     "VisionNighttimeRange"          "750"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -7460,20 +7460,20 @@
     "precache"
     {
         "particle"  "particles/units/heroes/hero_drow/drow_frost_arrow.vpcf"
-        
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "movespeed_slow"
-    "Ability6"  "has_population_2"  
+    "Ability6"  "has_population_2"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "2"
     "MagicalResistance"                     "10"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -7484,22 +7484,22 @@
     "AttackAnimationPoint"          "0.5"
     "AttackAcquisitionRange"        "500"
     "AttackRange"                           "550"
-    "ProjectileModel"            "particles/units/heroes/hero_drow/drow_frost_arrow.vpcf" 
+    "ProjectileModel"            "particles/units/heroes/hero_drow/drow_frost_arrow.vpcf"
     "ProjectileSpeed"            "1100"
 
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "33"     
+    "BountyXP"                    "33"
     "BountyGoldMin"                         "6"
     "BountyGoldMax"                         "6"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -7507,13 +7507,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.5"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "500"
@@ -7525,7 +7525,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "900"
     "VisionNighttimeRange"          "900"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -7542,13 +7542,13 @@
             "Wearable3" { "ItemDef" "5280" }
             "Wearable4" { "ItemDef" "5281" }
             "Wearable5" { "ItemDef" "5282" }
-            
+
         }
     }
 
  }
 
-  "race_8_special_tier_2_tree" 
+  "race_8_special_tier_2_tree"
  {
     "BaseClass"                     "npc_dota_creature"
     "Model" "models/heroes/treant_protector/treant_protector.vmdl"
@@ -7561,21 +7561,21 @@
     "precache"
     {
 
-       
-        
+
+
     }
-    
+
 
     //Abilities
     "AbilityLayout" "4"
     "Ability1"  "race_8_tree_stoner"
-    "Ability6"  "has_population_5"  
+    "Ability6"  "has_population_5"
 
     // Armor
     //----------------------------------------------------------------
     "ArmorPhysical"                         "1"
     "MagicalResistance"                     "20"
-   
+
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"            "DOTA_UNIT_CAP_RANGED_ATTACK"
@@ -7592,16 +7592,16 @@
 
     // Bounty
     //----------------------------------------------------------------
-    "BountyXP"                    "42"     
+    "BountyXP"                    "42"
     "BountyGoldMin"                         "12"
     "BountyGoldMax"                         "12"
-   
+
     // Bounds
     //----------------------------------------------------------------
     "BoundsHullName"                        "DOTA_HULL_SIZE_HERO"
     "RingRadius"                            "70"
     "CollisionSize"                         "31"
-    "FormationRank"                         "0" 
+    "FormationRank"                         "0"
 
     // Building Cost Stats
     //----------------------------------------------------------------
@@ -7609,13 +7609,13 @@
    // "LumberCost"                            "0"
    // "FoodCost"                                      "2"
    // "BuildTime"                                     "20"
-   
+
     // Movement
     //----------------------------------------------------------------
     "MovementCapabilities"          "DOTA_UNIT_CAP_MOVE_GROUND"
     "MovementSpeed"                         "300"
     "MovementTurnRate"                      "0.6"
-   
+
     // Status
     //----------------------------------------------------------------
     "StatusHealth"                          "400"
@@ -7627,7 +7627,7 @@
     //----------------------------------------------------------------
     "VisionDaytimeRange"            "750"
     "VisionNighttimeRange"          "650"
-   
+
     // Team
     //----------------------------------------------------------------
     "TeamName"                                      "DOTA_TEAM_NEUTRALS"
@@ -7644,7 +7644,7 @@
             "Wearable3" { "ItemDef" "229" }
             "Wearable4" { "ItemDef" "230" }
 
-                        
+
         }
     }
 
@@ -7653,7 +7653,7 @@
 
 
 
- 
+
 
 
 
